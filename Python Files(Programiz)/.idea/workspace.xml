@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="539cde2d-c247-4ead-97ad-ec4b35e068a1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YHgEc997468u9ncTbIc1VGidi1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Python.How to read files in Python">
+    <configuration name="How to close a file Using Python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Files(Programiz)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python File Operation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python File Operation/How to close a file Using Python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="How to read files in Python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Files(Programiz)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python File Operation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python File Operation/How to read files in Python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.How to read files in Python" />
+        <item itemvalue="Python.How to close a file Using Python" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="539cde2d-c247-4ead-97ad-ec4b35e068a1" name="Default Changelist" comment="" />
+      <created>1582604822496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582604822496</updated>
+      <workItem from="1582604823962" duration="13228000" />
+      <workItem from="1582637282561" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="513" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582636746793">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="513" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1582636746793" />
+    <state width="1545" height="209" key="GridCell.Tab.0.bottom" timestamp="1582637220004">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582637220004" />
+    <state width="1545" height="209" key="GridCell.Tab.0.center" timestamp="1582637220004">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582637220004" />
+    <state width="1545" height="209" key="GridCell.Tab.0.left" timestamp="1582637220004">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582637220004" />
+    <state width="1545" height="209" key="GridCell.Tab.0.right" timestamp="1582637220004">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582637220004" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Files_Programiz_$How_to_read_files_in_Python.coverage" NAME="How to read files in Python Coverage Results" MODIFIED="1582628012649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python File Operation" />
+    <SUITE FILE_PATH="coverage/Python_Files_Programiz_$How_to_close_a_file_Using_Python.coverage" NAME="How to close a file Using Python Coverage Results" MODIFIED="1582627894908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python File Operation" />
+  </component>
+</project>

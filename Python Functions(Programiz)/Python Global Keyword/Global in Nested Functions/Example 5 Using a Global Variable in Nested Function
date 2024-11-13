@@ -1,0 +1,17 @@
+The output is :
+
+Before calling bar: 20
+Calling bar now
+After calling bar: 20
+x in main : 25
+
+
+In the above program, we declare global variable inside the nested function bar().
+Inside foo() function, x has no effect of global keyword.
+
+
+Before and after calling bar(), the variable x takes the value of local variable i.e x = 20.
+Outside of the foo() function, the variable x will take value defined in the bar() function i.e x = 25.
+This is because we have used global keyword in x to create global variable inside the bar() function (local scope).
+
+If we make any changes inside the bar() function, the changes appears outside the local scope, i.e. foo().

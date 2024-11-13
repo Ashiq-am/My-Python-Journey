@@ -1,0 +1,23 @@
+Decision making is required when we want to execute a code only if a certain condition is satisfied.
+
+The if…elif…else statement is used in Python for decision making.
+
+
+
+Python if Statement Syntax:-
+
+if test expression:
+    statement(s)
+
+
+
+
+
+Here, the program evaluates the test expression and will execute statement(s) only if the text expression is True.
+
+If the text expression is False, the statement(s) is not executed.
+
+In Python, the body of the if statement is indicated by the indentation.
+Body starts with an indentation and the first unindented line marks the end.
+
+Python interprets non-zero values as True. None and 0 are interpreted as False.

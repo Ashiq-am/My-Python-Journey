@@ -1,0 +1,8 @@
+Same as that of for loop, we can have an optional else block with while loop as well.
+
+The else part is executed if the condition in the while loop evaluates to False.
+
+The while loop can be terminated with a break statement. In such case, the else part is ignored.
+Hence, a while loop's else part runs if no break occurs and the condition is false.
+
+Here is an example to illustrate this.

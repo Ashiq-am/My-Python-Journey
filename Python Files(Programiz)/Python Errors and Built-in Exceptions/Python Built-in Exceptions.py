@@ -1,0 +1,2 @@
+locals()['__builtins__']
+

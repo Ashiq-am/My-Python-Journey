@@ -1,0 +1,24 @@
+Syntax of if...elif...else :-
+
+if test expression:
+    Body of if
+elif test expression:
+    Body of elif
+else:
+    Body of else
+
+
+
+
+
+
+
+The elif is short for else if. It allows us to check for multiple expressions.
+
+If the condition for if is False, it checks the condition of the next elif block and so on.
+
+If all the conditions are False, body of else is executed.
+
+Only one block among the several if...elif...else blocks is executed according to the condition.
+
+The if block can have only one else block. But it can have multiple elif blocks.

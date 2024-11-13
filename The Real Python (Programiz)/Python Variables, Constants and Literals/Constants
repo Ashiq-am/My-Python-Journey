@@ -1,0 +1,18 @@
+A constant is a type of variable whose value cannot be changed. It is helpful to think of constants as containers that
+hold information which cannot be changed later.
+
+Non technically, you can think of constant as a bag to store some books and those books cannot be replaced once placed inside the bag.
+
+
+
+
+
+
+
+
+
+Assigning value to a constant in Python
+
+In Python, constants are usually declared and assigned on a module. Here, the module means a new file containing variables,
+functions etc which is imported to main file.
+Inside the module, constants are written in all capital letters and underscores separating the words.

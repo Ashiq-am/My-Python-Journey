@@ -1,0 +1,7 @@
+We can get the present working directory using the getcwd() method.
+
+This method returns the current working directory in the form of a string.
+We can also use the getcwdb() method to get it as bytes object.
+
+
+The extra backslash implies escape sequence. The print() function will render this properly.

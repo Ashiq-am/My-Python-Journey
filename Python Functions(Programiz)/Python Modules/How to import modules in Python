@@ -1,0 +1,25 @@
+We can import the definitions inside a module to another module or the interactive interpreter in Python.
+
+We use the import keyword to do this. To import our previously defined module example we type the following in the Python prompt.
+
+>>> import example
+
+
+This does not enter the names of the functions defined in example directly in the current symbol table.
+It only enters the module name example there.
+
+Using the module name we can access the function using the dot . operator. For example:
+
+
+>>> example.add(4,5.5)
+9.5
+
+
+Python has a ton of standard modules available.
+
+You can check out the full list of Python standard modules and what they are for.
+These files are in the Lib directory inside the location where you installed Python.
+
+Standard modules can be imported the same way as we import our user-defined modules.
+
+There are various ways to import modules. They are listed as follows.

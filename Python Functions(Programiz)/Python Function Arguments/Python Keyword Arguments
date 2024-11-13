@@ -1,0 +1,31 @@
+When we call a function with some values, these values get assigned to the arguments according to their position.
+
+For example, in the above function greet(), when we called it as greet("Bruce","How do you do?"), the value "Bruce" gets assigned to the argument name and similarly "How do you do?" to msg.
+
+Python allows functions to be called using keyword arguments. When we call functions in this way,
+
+the order (position) of the arguments can be changed. Following calls to the above function are all valid and produce the same result.
+
+>>> # 2 keyword arguments
+>>> greet(name = "Bruce",msg = "How do you do?")
+
+>>> # 2 keyword arguments (out of order)
+>>> greet(msg = "How do you do?",name = "Bruce")
+
+>>> # 1 positional, 1 keyword argument
+>>> greet("Bruce",msg = "How do you do?")
+
+
+As we can see, we can mix positional arguments with keyword arguments during a function call.
+But we must keep in mind that keyword arguments must follow positional arguments.
+
+Having a positional argument after keyword arguments will result into errors. For example the function call as follows:
+
+
+greet(name="Bruce","How do you do?")
+
+
+Will result into error as:
+
+
+SyntaxError: non-keyword arg after keyword arg

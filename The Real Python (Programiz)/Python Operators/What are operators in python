@@ -1,0 +1,11 @@
+Operators are special symbols in Python that carry out arithmetic or logical computation.
+The value that the operator operates on is called the operand.
+
+For example:
+
+>>> 2+3
+5
+
+
+
+Here, + is the operator that performs addition. 2 and 3 are the operands and 5 is the output of the operation.

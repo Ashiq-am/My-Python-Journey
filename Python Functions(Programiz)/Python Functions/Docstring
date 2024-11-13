@@ -1,0 +1,22 @@
+The first string after the function header is called the docstring and is short for documentation string.
+It is used to explain in brief, what a function does.
+
+Although optional, documentation is a good programming practice. Unless you can remember what you had for dinner last week,
+always document your code.
+
+In the above example, we have a docstring immediately below the function header.
+We generally use triple quotes so that docstring can extend up to multiple lines.
+This string is available to us as __doc__ attribute of the function.
+
+For example:
+
+
+
+Try running the following into the Python shell to see the output.
+
+
+
+>>> print(greet.__doc__)
+This function greets to
+	the person passed into the
+	name parameter

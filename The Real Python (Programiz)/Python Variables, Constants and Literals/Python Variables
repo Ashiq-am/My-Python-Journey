@@ -1,0 +1,26 @@
+A variable is a named location used to store data in the memory.
+It is helpful to think of variables as a container that holds data which can be changed later throughout programming. For example,
+
+number = 10
+
+Here, we have created a named number. We have assigned value 10 to the variable.
+
+You can think variable as a bag to store books in it and those books can be replaced at any time.
+
+number = 10
+number = 1.1
+
+Initially, the value of number was 10. Later it's changed to 1.1.
+
+Note: In Python, we don't assign values to the variables, whereas Python gives the reference of the object (value) to the variable.
+
+
+
+
+
+
+
+
+Assigning a value to a Variable in Python
+
+As you can see from the above example, you can use the assignment operator = to assign a value to a variable.

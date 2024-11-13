@@ -1,0 +1,6 @@
+When we run the code, the will output be:
+
+NameError: name 'y' is not defined
+
+The output shows an error, because we are trying to access a local variable y in a global scope whereas the local variable
+only works inside foo() or local scope.

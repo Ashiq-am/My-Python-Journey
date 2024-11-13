@@ -1,0 +1,2 @@
+In Python,
+we create a single module config.py to hold global variables and share information across Python modules within the same program.

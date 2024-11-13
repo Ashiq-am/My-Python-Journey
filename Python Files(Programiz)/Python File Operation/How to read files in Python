@@ -1,0 +1,21 @@
+To read a file in Python, we must open the file in reading mode.
+
+There are various methods available for this purpose. We can use the read(size) method to read in size number of data.
+If size parameter is not specified, it reads and returns up to the end of the file.
+
+
+
+We can see that, the read() method returns newline as '\n'.
+Once the end of file is reached, we get empty string on further reading.
+
+We can change our current file cursor (position) using the seek() method.
+Similarly, the tell() method returns our current position (in number of bytes).
+
+
+
+The lines in file itself has a newline character '\n'.
+
+Moreover, the print() end parameter to avoid two newlines when printing.
+
+Alternately, we can use readline() method to read individual lines of a file.
+This method reads a file till the newline, including the newline character.

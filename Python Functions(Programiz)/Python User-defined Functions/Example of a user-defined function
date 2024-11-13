@@ -1,0 +1,16 @@
+Output
+
+
+Enter a number: 2.4
+Enter another number: 6.5
+The sum is 8.9
+
+
+Here, we have defined the function my_addition() which adds two numbers and returns the result.
+
+This is our user-defined function. We could have multiplied the two numbers inside our function (it's all up to us).
+But this operation would not be consistent with the name of the function. It would create ambiguity.
+
+It is always a good idea to name functions according to the task they perform.
+
+In the above example, print() is a built-in function in Python.

@@ -1,0 +1,16 @@
+Python (interpreter) raises exceptions when it encounter errors. For example: divided by zero. In this article,
+you will learn about different exceptions that are built-in in Python.
+
+When writing a program, we, more often than not, will encounter errors.
+
+Error caused by not following the proper structure (syntax) of the language is called syntax error or parsing error.
+
+
+We can notice here that a colon is missing in the if statement.
+
+Errors can also occur at runtime and these are called exceptions.
+They occur, for example, when a file we try to open does not exist (FileNotFoundError),
+dividing a number by zero (ZeroDivisionError), module we try to import is not found (ImportError) etc.
+
+Whenever these type of runtime error occur, Python creates an exception object. If not handled properly,
+it prints a traceback to that error along with some details about why that error occurred.

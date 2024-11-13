@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="356a1869-3a44-4df5-ac61-f1c05432b5d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZajyKjIbMEtjN50OpT8vQanF3M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.Example #1 Arithmetic operators in Python">
+    <configuration name="Example 1 Converting integer to float" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="The Real Python (Programiz)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Type Conversion and Type Casting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Type Conversion and Type Casting/Example 1 Converting integer to float.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Example #1 Arithmetic operators in Python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="The Real Python (Programiz)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Operators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Operators/Example #1 Arithmetic operators in Python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Example #4 Identity operators in Python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="The Real Python (Programiz)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Operators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Operators/Example #4 Identity operators in Python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Example of Scope and Namespace in Python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="The Real Python (Programiz)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Namespace and Scope" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Namespace and Scope/Example of Scope and Namespace in Python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Example #1 Arithmetic operators in Python" />
+        <item itemvalue="Python.Example #4 Identity operators in Python" />
+        <item itemvalue="Python.Example of Scope and Namespace in Python" />
+        <item itemvalue="Python.Example 1 Converting integer to float" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="356a1869-3a44-4df5-ac61-f1c05432b5d2" name="Default Changelist" comment="" />
+      <created>1585084351908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585084351908</updated>
+      <workItem from="1585084374111" duration="793000" />
+      <workItem from="1585396005692" duration="78000" />
+      <workItem from="1585396288095" duration="9935000" />
+      <workItem from="1585732335701" duration="3203000" />
+      <workItem from="1585741889440" duration="189000" />
+      <workItem from="1585742226341" duration="45000" />
+      <workItem from="1585742951730" duration="195000" />
+      <workItem from="1585743317604" duration="1844000" />
+      <workItem from="1585745189300" duration="443000" />
+      <workItem from="1585756291693" duration="102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585743128557">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1585743128557" />
+    <state x="462" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585738210787">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="462" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1585738210787" />
+    <state x="871" y="221" key="FileChooserDialogImpl" timestamp="1585744175634">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="871" y="221" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1585744175634" />
+    <state width="1545" height="209" key="GridCell.Tab.0.bottom" timestamp="1585745635425">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585745635425" />
+    <state width="1545" height="209" key="GridCell.Tab.0.center" timestamp="1585745635425">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585745635425" />
+    <state width="1545" height="209" key="GridCell.Tab.0.left" timestamp="1585745635425">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585745635425" />
+    <state width="1545" height="209" key="GridCell.Tab.0.right" timestamp="1585745635425">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585745635425" />
+    <state x="192" y="0" key="SettingsEditor" timestamp="1585745356168">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="192" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585745356168" />
+    <state x="431" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1585745191304">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="431" y="212" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585745191304" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/The_Real_Python__Programiz_$Example_1_Converting_integer_to_float.coverage" NAME="Example 1 Converting integer to float Coverage Results" MODIFIED="1585744194434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Type Conversion and Type Casting" />
+    <SUITE FILE_PATH="coverage/The_Real_Python__Programiz_$Example_of_Scope_and_Namespace_in_Python.coverage" NAME="Example of Scope and Namespace in Python Coverage Results" MODIFIED="1585744214788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Namespace and Scope" />
+    <SUITE FILE_PATH="coverage/The_Real_Python__Programiz_$Example__1_Arithmetic_operators_in_Python.coverage" NAME="Example #1 Arithmetic operators in Python Coverage Results" MODIFIED="1585745248079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Operators" />
+    <SUITE FILE_PATH="coverage/The_Real_Python__Programiz_$Example__4_Identity_operators_in_Python.coverage" NAME="Example #4 Identity operators in Python Coverage Results" MODIFIED="1585745225664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Operators" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+The Python interpreter imports a module only once during a session. This makes things more efficient. Here is an example to show how this works.
+
+Suppose we have the following code in a module named my_module.
+
+# This module shows the effect of
+#  multiple imports and reload
+
+print("This code got executed")
+
+
+Now we see the effect of multiple imports.
+
+>>> import my_module
+This code got executed
+>>> import my_module
+>>> import my_module
+
+
+We can see that our code got executed only once. This goes to say that our module was imported only once.
+
+Now if our module changed during the course of the program, we would have to reload it.One way to do this is to restart the interpreter. But this does not help much.
+
+Python provides a neat way of doing this. We can use the reload() function inside the imp module to reload a module.
+This is how its done.
+
+>>> import imp
+>>> import my_module
+This code got executed
+>>> import my_module
+>>> imp.reload(my_module)
+This code got executed
+<module 'my_module' from '.\\my_module.py'>

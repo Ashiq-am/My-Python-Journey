@@ -1,0 +1,4 @@
+In Python, a variable declared outside of the function or in global scope is known as global variable.
+This means, global variable can be accessed inside or outside of the function.
+
+Let's see an example on how a global variable is created in Python.

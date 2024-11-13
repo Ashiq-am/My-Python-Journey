@@ -1,0 +1,4 @@
+In Implicit type conversion, Python automatically converts one data type to another data type.
+This process doesn't need any user involvement.
+
+Let's see an example where Python promotes conversion of lower datatype (integer) to higher data type (float) to avoid data loss.

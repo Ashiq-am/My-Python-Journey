@@ -1,0 +1,9 @@
+Python contains one special literal i.e. None. We use it to specify to that field that is not created.
+
+
+
+
+
+
+In the above program, we define a menu function.
+Inside menu, when we set parameter as drink then, it displays Available. And, when the parameter is food, it displays None.

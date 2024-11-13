@@ -1,0 +1,19 @@
+While importing a module, Python looks at several places. Interpreter first looks for
+a built-in module then (if not found) into a list of directories defined in sys.path. The search is in this order.
+
+The current directory.
+PYTHONPATH (an environment variable with a list of directory).
+The installation-dependent default directory.
+
+
+>>> import sys
+>>> sys.path
+['',
+'C:\\Python33\\Lib\\idlelib',
+'C:\\Windows\\system32\\python33.zip',
+'C:\\Python33\\DLLs',
+'C:\\Python33\\lib',
+'C:\\Python33',
+'C:\\Python33\\lib\\site-packages']
+
+We can add modify this list to add our own path.

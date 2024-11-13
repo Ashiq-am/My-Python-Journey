@@ -1,0 +1,29 @@
+In the above example, we did not mention any exception in the except clause.
+
+This is not a good programming practice as it will catch all exceptions and handle every case in the same way.
+We can specify which exceptions an except clause will catch.
+
+A try clause can have any number of except clause to handle them differently but only one will be executed in case an exception occurs.
+
+We can use a tuple of values to specify multiple exceptions in an except clause. Here is an example pseudo code.
+
+
+
+
+
+try:
+   # do something
+   pass
+
+except ValueError:
+   # handle ValueError exception
+   pass
+
+except (TypeError, ZeroDivisionError):
+   # handle multiple exceptions
+   # TypeError and ZeroDivisionError
+   pass
+
+except:
+   # handle all other exceptions
+   pass

@@ -1,0 +1,19 @@
+Initially, an object 2 is created and the name a is associated with it, when we do a = a+1,
+
+a new object 3 is created and now a associates with this object.
+
+Note that id(a) and id(3) have same values.
+
+Furthermore, when we do b = 2, the new name b gets associated with the previous object 2.
+
+This is efficient as Python doesn't have to create a new duplicate object.
+This dynamic nature of name binding makes Python powerful; a name could refer to any type of object.
+
+>>> a = 5
+>>> a = 'Hello World!'
+>>> a = [1,2,3]
+
+
+
+All these are valid and a will refer to three different types of object at different instances.
+Functions are objects too, so a name can refer to them as well.

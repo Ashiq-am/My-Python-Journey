@@ -1,0 +1,6 @@
+1.User-defined functions help to decompose a large program into small segments which makes program easy to understand,
+maintain and debug.
+
+2.If repeated code occurs in a program. Function can be used to include those codes and execute when needed by calling that function.
+
+3.Programmars working on large project can divide the workload by making different functions.

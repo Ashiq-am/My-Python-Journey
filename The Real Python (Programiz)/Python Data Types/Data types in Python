@@ -1,0 +1,4 @@
+Every value in Python has a datatype. Since everything is an object in Python programming,
+data types are actually classes and variables are instance (object) of these classes.
+
+There are various data types in Python. Some of the important types are listed below.

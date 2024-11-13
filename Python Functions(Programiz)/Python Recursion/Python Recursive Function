@@ -1,0 +1,7 @@
+We know that in Python, a function can call other functions. It is even possible for the function to call itself.
+These type of construct are termed as recursive functions.
+
+Following is an example of recursive function to find the factorial of an integer.
+
+Factorial of a number is the product of all the integers from 1 to that number.
+For example, the factorial of 6 (denoted as 6!) is 1*2*3*4*5*6 = 720.

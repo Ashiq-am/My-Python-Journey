@@ -1,0 +1,18 @@
+Sometimes we would like to format our output to make it look attractive.
+This can be done by using the str.format() method. This method is visible to any string object.
+
+
+
+>>> x = 5; y = 10
+>>> print('The value of x is {} and y is {}'.format(x,y))
+The value of x is 5 and y is 10
+
+
+
+
+
+Here the curly braces {} are used as placeholders. We can specify the order in which it is printed by using numbers (tuple index).
+
+
+
+

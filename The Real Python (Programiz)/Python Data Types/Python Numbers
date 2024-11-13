@@ -1,0 +1,39 @@
+Integers, floating point numbers and complex numbers falls under Python numbers category.
+They are defined as int, float and complex class in Python.
+
+We can use the type() function to know which class a variable or a value belongs to and the isinstance() function
+to check if an object belongs to a particular class.
+
+
+
+
+
+
+
+
+
+
+Integers can be of any length, it is only limited by the memory available.
+
+A floating point number is accurate up to 15 decimal places. Integer and floating points are separated by decimal points.
+1 is integer, 1.0 is floating point number.
+
+Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part. Here are some examples.
+
+
+
+
+
+
+>>> a = 1234567890123456789
+>>> a
+1234567890123456789
+>>> b = 0.1234567890123456789
+>>> b
+0.12345678901234568
+>>> c = 1+2j
+>>> c
+(1+2j)
+
+
+Notice that the float variable b got truncated.

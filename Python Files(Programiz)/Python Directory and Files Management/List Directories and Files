@@ -1,0 +1,5 @@
+All files and sub directories inside a directory can be known using the listdir() method.
+
+
+This method takes in a path and returns a list of sub directories and files in that path.
+If no path is specified, it returns from the current working directory.

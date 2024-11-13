@@ -1,0 +1,5 @@
+Once we have defined a function, we can call it from another function, program or even the Python prompt.
+To call a function we simply type the function name with appropriate parameters.
+
+>>> greet('Paul')
+Hello, Paul. Good morning!

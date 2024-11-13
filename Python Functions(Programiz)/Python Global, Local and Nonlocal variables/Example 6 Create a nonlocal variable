@@ -1,0 +1,8 @@
+When we run the code, the will output be:
+
+inner: nonlocal
+outer: nonlocal
+
+
+In the above code there is a nested function inner().
+We use nonlocal keyword to create nonlocal variable. The inner() function is defined in the scope of another function outer().

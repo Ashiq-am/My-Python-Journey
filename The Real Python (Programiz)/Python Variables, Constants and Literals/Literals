@@ -1,0 +1,7 @@
+Literal is a raw data given in a variable or constant. In Python, there are various types of literals they are as follows:
+
+
+
+Numeric Literals
+
+Numeric Literals are immutable (unchangeable). Numeric literals can belong to 3 different numerical types Integer, Float, and Complex.

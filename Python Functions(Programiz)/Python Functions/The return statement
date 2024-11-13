@@ -1,0 +1,24 @@
+The return statement is used to exit a function and go back to the place from where it was called.
+
+
+Syntax of return
+return [expression_list]
+
+
+This statement can contain expression which gets evaluated and the value is returned.
+If there is no expression in the statement or the return statement itself is not present inside a function,
+then the function will return the None object.
+
+For example:
+
+>>> print(greet("May"))
+Hello, May. Good morning!
+None
+
+Here, None is the returned value.
+
+
+
+
+
+

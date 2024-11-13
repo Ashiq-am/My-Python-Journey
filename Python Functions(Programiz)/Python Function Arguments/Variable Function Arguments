@@ -1,0 +1,4 @@
+Up until now functions had fixed number of arguments.
+In Python there are other ways to define a function which can take variable number of arguments.
+
+Three different forms of this type are described below.

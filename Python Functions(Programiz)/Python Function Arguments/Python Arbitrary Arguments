@@ -1,0 +1,15 @@
+Sometimes, we do not know in advance the number of arguments that will be passed into a function.
+Python allows us to handle this kind of situation through function calls with arbitrary number of arguments.
+
+In the function definition we use an asterisk (*) before the parameter name to denote this kind of argument. Here is an example.
+
+
+Output
+
+Hello Monica
+Hello Luke
+Hello Steve
+Hello John
+Here, we have called the function with multiple arguments.
+These arguments get wrapped up into a tuple before being passed into the function.
+Inside the function, we use a for loop to retrieve all the arguments back.

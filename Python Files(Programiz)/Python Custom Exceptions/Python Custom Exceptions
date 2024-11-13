@@ -1,0 +1,44 @@
+Python has many built-in exceptions which forces your program to output an error when something in it goes wrong.
+
+However, sometimes you may need to create custom exceptions that serves your purpose.
+
+In Python, users can define such exceptions by creating a new class.
+This exception class has to be derived, either directly or indirectly, from Exception class.
+Most of the built-in exceptions are also derived form this class.
+
+
+
+
+
+>>> class CustomError(Exception):
+...     pass
+...
+
+>>> raise CustomError
+Traceback (most recent call last):
+...
+__main__.CustomError
+
+>>> raise CustomError("An error occurred")
+Traceback (most recent call last):
+...
+__main__.CustomError: An error occurred
+
+
+
+
+
+
+
+
+
+
+Here, we have created a user-defined exception called CustomError which is derived from the Exception class.
+This new exception can be raised, like other exceptions, using the raise statement with an optional error message.
+
+When we are developing a large Python program, it is a good practice to place all the user-defined exceptions that our program raises in a separate file.
+Many standard modules do this. They define their exceptions separately as exceptions.py or errors.py (generally but not always).
+
+User-defined exception class can implement everything a normal class can do, but we generally make them simple and concise.
+Most implementations declare a custom base class and derive others exception classes from this base class.
+This concept is made clearer in the following example.

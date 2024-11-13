@@ -1,0 +1,17 @@
+Docstring is short for documentation string.
+
+It is a string that occurs as the first statement in a module, function, class, or method definition.
+We must write what a function/class does in the docstring.
+
+Triple quotes are used while writing docstrings. For example:
+
+
+
+
+
+
+Docstring is available to us as the attribute __doc__ of the function.
+Issue the following code in shell once you run the above program.
+
+>>> print(double.__doc__)
+Function to double the value

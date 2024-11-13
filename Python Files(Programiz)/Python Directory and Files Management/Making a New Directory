@@ -1,0 +1,6 @@
+We can make a new directory using the mkdir() method.
+
+This method takes in the path of the new directory.
+f the full path is not specified, the new directory is created in the current working directory.
+
+

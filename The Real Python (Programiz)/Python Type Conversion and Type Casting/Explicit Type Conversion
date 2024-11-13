@@ -1,0 +1,12 @@
+In Explicit Type Conversion, users convert the data type of an object to required data type.
+We use the predefined functions like int(), float(), str(), etc to perform explicit type conversion.
+
+This type conversion is also called typecasting because the user casts (change) the data type of the objects.
+
+Syntax :
+
+(required_datatype)(expression)
+
+
+
+Typecasting can be done by assigning the required data type function to the expression.

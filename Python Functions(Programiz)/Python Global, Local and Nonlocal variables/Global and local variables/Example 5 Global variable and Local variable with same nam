@@ -1,0 +1,13 @@
+When we run the code, the will output be:
+
+local x: 10
+global x: 5
+
+
+In above code, we used same name x for both global variable and local variable.
+We get different result when we print same variable because the variable is declared in both scopes,
+i.e. the local scope inside foo() and global scope outside foo().
+
+When we print the variable inside the foo() it outputs local x: 10, this is called local scope of variable.
+
+Similarly, when we print the variable outside the foo(), it outputs global x: 5, this is called global scope of variable.

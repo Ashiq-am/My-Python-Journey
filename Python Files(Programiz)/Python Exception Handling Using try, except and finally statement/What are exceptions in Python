@@ -1,0 +1,9 @@
+Python has many built-in exceptions which forces your program to output an error when something in it goes wrong.
+
+When these exceptions occur, it causes the current process to stop and passes it to the calling process until it is handled.
+If not handled, our program will crash.
+
+For example, if function A calls function B which in turn calls function C and an exception occurs in function C.
+If it is not handled in C, the exception passes to B and then to A.
+
+If never handled, an error message is spit out and our program come to a sudden, unexpected halt.

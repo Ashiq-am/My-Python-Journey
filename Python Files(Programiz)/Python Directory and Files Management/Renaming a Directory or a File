@@ -1,0 +1,3 @@
+The rename() method can rename a directory or a file.
+
+The first argument is the old name and the new name must be supplies as the second argument.

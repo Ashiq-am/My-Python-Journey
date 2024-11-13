@@ -1,0 +1,3 @@
+We can import a module using import statement and access the definitions inside it using the dot operator as described above.
+
+Here is an example.

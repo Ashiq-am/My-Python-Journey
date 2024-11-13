@@ -1,0 +1,7 @@
+When we run the code, it will output:
+
+local
+
+
+
+Let's take a look to the earlier problem where x was a global variable and we wanted to modify x inside foo().

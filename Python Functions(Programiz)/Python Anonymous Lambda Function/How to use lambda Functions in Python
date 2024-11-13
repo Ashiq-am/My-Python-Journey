@@ -1,0 +1,10 @@
+A lambda function in python has the following syntax.
+
+
+Syntax of Lambda Function in python
+
+lambda arguments: expression
+
+
+Lambda functions can have any number of arguments but only one expression.
+The expression is evaluated and returned. Lambda functions can be used wherever function objects are required.

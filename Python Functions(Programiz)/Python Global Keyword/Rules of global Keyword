@@ -1,0 +1,9 @@
+The basic rules for global keyword in Python are:
+
+When we create a variable inside a function, it’s local by default.
+
+When we define a variable outside of a function, it’s global by default. You don’t have to use global keyword.
+
+We use global keyword to read and write a global variable inside a function.
+
+Use of global keyword outside a function has no effectv

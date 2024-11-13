@@ -1,0 +1,20 @@
+In user-defined function topic, we learned about defining a function and calling it.
+Otherwise, the function call will result into an error. Here is an example.
+
+
+Output
+
+Hello Monica, Good morning!
+Here, the function greet() has two parameters.
+
+Since, we have called this function with two arguments, it runs smoothly and we do not get any error.
+
+If we call it with different number of arguments, the interpreter will complain.
+Below is a call to this function with one and no arguments along with their respective error messages.
+
+
+>>> greet("Monica")    # only one argument
+TypeError: greet() missing 1 required positional argument: 'msg'
+
+>>> greet()    # no arguments
+TypeError: greet() missing 2 required positional arguments: 'name' and 'msg'

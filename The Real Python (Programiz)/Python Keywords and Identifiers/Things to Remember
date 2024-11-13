@@ -1,0 +1,6 @@
+Python is a case-sensitive language. This means, Variable and variable are not the same. Always name identifiers that make sense.
+
+While, c = 10 is valid. Writing count = 10 would make more sense and it would be easier to figure out what it
+does even when you look at your code after a long gap.
+
+Multiple words can be separated using an underscore, this_is_a_long_variable.

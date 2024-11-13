@@ -1,0 +1,48 @@
+We can convert between different data types by using different type conversion functions like int(), float(), str() etc.
+
+>>> float(5)
+5.0
+
+Conversion from float to int will truncate the value (make it closer to zero).
+
+
+
+>>> int(10.6)
+10
+>>> int(-10.6)
+-10
+
+
+
+Conversion to and from string must contain compatible values.
+
+>>> float('2.5')
+2.5
+>>> str(25)
+'25'
+>>> int('1p')
+Traceback (most recent call last):
+  File "<string>", line 301, in runcode
+  File "<interactive input>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '1p'
+
+
+
+
+We can even convert one sequence to another.
+
+>>> set([1,2,3])
+{1, 2, 3}
+>>> tuple({5,6,7})
+(5, 6, 7)
+>>> list('hello')
+['h', 'e', 'l', 'l', 'o']
+
+
+
+To convert to dictionary, each element must be a pair
+
+>>> dict([[1,2],[3,4]])
+{1: 2, 3: 4}
+>>> dict([(3,26),(4,44)])
+{3: 26, 4: 44}

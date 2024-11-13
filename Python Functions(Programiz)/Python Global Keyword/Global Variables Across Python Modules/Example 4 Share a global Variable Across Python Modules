@@ -1,0 +1,36 @@
+Create a config.py file, to store global variables
+
+a = 0
+b = "empty"
+
+
+Create a update.py file, to change global variables
+
+import config
+
+config.a = 10
+config.b = "alphabet"
+
+
+Create a main.py file, to test changes in value
+
+import config
+import update
+
+print(config.a)
+print(config.b)
+
+
+When we run the main.py file, the output will be
+
+10
+alphabet
+
+
+In the above, we create three files: config.py, update.py and main.py.
+
+The module config.py stores global variables of a and b. In update.py file,
+we import the config.py module and modify the values of a and b. Similarly,
+in main.py file we import both config.py and update.py module.
+
+Finally, we print and test the values of global variables whether they are changed or not.
