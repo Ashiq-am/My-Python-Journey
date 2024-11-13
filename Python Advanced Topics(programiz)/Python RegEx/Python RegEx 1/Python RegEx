@@ -1,0 +1,6 @@
+Python has a module named re to work with regular expressions. To use it, we need to import the module.
+
+import re
+
+
+The module defines several functions and constants to work with RegEx.

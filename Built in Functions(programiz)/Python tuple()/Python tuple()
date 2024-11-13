@@ -1,0 +1,20 @@
+The tuple() builtin can be used to create tuples in Python.
+
+In Python, a tuple is an immutable sequence type. One of the ways of creating tuple is by using
+the tuple() construct.
+
+The syntax of tuple() is:
+
+tuple(iterable)
+
+
+
+
+
+
+
+tuple() Parameters
+
+iterable​ (optional) - an iterable (list, range, etc.) or an iterator object
+
+If the iterable is not passed to tuple(), the function returns an empty tuple.

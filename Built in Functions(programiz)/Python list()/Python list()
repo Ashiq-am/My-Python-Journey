@@ -1,0 +1,36 @@
+Python list()
+The list() constructor returns a list in Python.
+
+The syntax of list() is:
+
+list([iterable])
+
+
+
+
+
+
+
+
+list() Parameters
+
+The list() constructor takes a single argument:
+
+iterable (optional) - an object that could be a sequence (string, tuples) or collection (set, dictionary) or
+any iterator object
+
+
+
+
+
+
+
+
+
+Return value from list()
+
+The list() constructor returns a list.
+
+If no parameters are passed, it returns an empty list
+
+If iterable is passed as a parameter, it creates a list consisting of iterable's items.

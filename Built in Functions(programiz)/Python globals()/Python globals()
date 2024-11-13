@@ -1,0 +1,57 @@
+The globals() method returns the dictionary of the current global symbol table.
+
+A symbol table is a data structure maintained by a compiler which contains all necessary information about the program.
+
+These include variable names, methods, classes, etc.
+
+There are mainly two kinds of symbol table.
+
+
+1.Local symbol table
+
+2.Global symbol table
+
+
+
+Local symbol table stores all information related to the local scope of the program,
+and is accessed in Python using locals() method.
+
+The local scope could be within a function, within a class, etc.
+
+Likewise, a Global symbol table stores all information related to the global scope of the program,
+and is accessed in Python using globals() method.
+
+The global scope contains all functions, variables which are not associated to any class or function.
+
+
+
+
+
+
+
+
+
+Syntax of globals()
+The globals table dictionary is the dictionary of the current module (inside a function,
+this is a module where it is defined, not the module where it is called).
+
+
+The syntax of globals() method is:
+
+globals()
+
+
+
+
+
+
+
+
+
+globals() Parameters
+The globals() method doesn't take any parameters.
+
+
+
+Return value from globals()
+The globals() method returns the dictionary of the current global symbol table.

@@ -1,0 +1,21 @@
+In the example above, what would happen if the last line of the function print_msg() returned the printer() function instead of
+calling it? This means the function was defined as follows.
+
+
+The print_msg() function was called with the string "Hello" and the returned function was bound to the name another.
+On calling another(), the message was still remembered although we had already finished executing the print_msg() function.
+
+This technique by which some data ("Hello") gets attached to the code is called closure in Python.
+
+This value in the enclosing scope is remembered even when the variable goes out of scope or the function itself is removed from
+the current namespace.
+
+Try running the following in the Python shell to see the output.
+
+>>> del print_msg
+>>> another()
+Hello
+>>> print_msg("Hello")
+Traceback (most recent call last):
+...
+NameError: name 'print_msg' is not defined

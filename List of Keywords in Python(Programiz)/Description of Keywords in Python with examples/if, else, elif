@@ -1,0 +1,10 @@
+if, else, elif are used for conditional branching or decision making.
+
+When we want to test some condition and execute a block only if the condition is true,
+then we use if and elif.
+elif is short for else if. else is the block which is executed if the condition is false.
+
+This will be clear with the following example:
+
+
+

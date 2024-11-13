@@ -1,0 +1,37 @@
+In order to understand about decorators, we must first know a few basic things in Python.
+
+We must be comfortable with the fact that, everything in Python (Yes! Even classes), are objects.
+Names that we define are simply identifiers bound to these objects. Functions are no exceptions,
+they are objects too (with attributes). Various different names can be bound to the same function object.
+
+Here is an example.
+
+
+
+
+
+When you run the code, both functions first and second gives same output. Here,
+the names first and second refer to the same function object.
+
+Now things start getting weirder.
+
+Functions can be passed as arguments to another function.
+
+If you have used functions like map, filter and reduce in Python, then you already know about this.
+
+Such function that take other functions as arguments are also called higher order functions.
+
+Here is an example of such a function.
+
+
+
+
+
+
+
+We invoke the function as follows.
+
+>>> operate(inc,3)
+4
+>>> operate(dec,3)
+2

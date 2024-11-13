@@ -1,0 +1,37 @@
+The type() function either returns the type of the object or returns a new type object based on the arguments passed.
+
+The type() function has two different forms:
+
+
+
+type(object)
+type(name, bases, dict)
+
+
+
+
+
+
+
+
+type() With a Single Object Parameter
+If a single object is passed to type(), the function returns its type.
+
+
+
+
+
+
+type() With name, bases and dict Parameters
+If three parameters are passed to type(), it returns a new type object.
+
+
+The three parameters are:
+
+Parameter	                                                      Description
+
+name	                                      a class name; becomes the __name__ attribute
+
+bases	                             a tuple that itemizes the base class; becomes the __bases__ attribute
+
+dict	      a dictionary which is the namespace containing definitions for the class body; becomes the __dict__ attribute

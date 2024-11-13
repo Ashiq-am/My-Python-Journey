@@ -1,0 +1,3 @@
+return statement is used inside a function to exit it and return a value.
+
+If we do not return a value explicitly, None is returned automatically. This is verified with the following example.

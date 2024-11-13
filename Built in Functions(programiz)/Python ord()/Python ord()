@@ -1,0 +1,23 @@
+The ord() function returns an integer representing the Unicode character.
+
+The syntax of ord() is:
+
+ord(ch)
+
+
+
+
+
+ord() Parameters
+The ord() function takes a single parameter:
+
+ch - a Unicode character
+
+
+
+
+
+
+
+Return value from ord()
+The ord() function returns an integer representing the Unicode character.

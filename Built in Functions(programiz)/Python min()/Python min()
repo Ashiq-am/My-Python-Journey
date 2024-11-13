@@ -1,0 +1,76 @@
+The Python min() function returns the smallest item in an iterable.
+It can also be used to find the smallest item between two or more parameters.
+
+
+
+The min() function has two forms:
+
+
+// to find the smallest item in an iterable
+min(iterable, *iterables, key, default)
+
+
+// to find the smallest item between two or more objects
+min(arg1, arg2, *args, key)
+
+
+
+
+
+
+
+
+1. min() with iterable arguments
+
+To find the smallest item in an iterable, we use this syntax:
+
+min(iterable, *iterables, key, default)
+
+
+
+
+
+
+
+
+
+
+min() Parameters
+
+iterable - an iterable such as list, tuple, set, dictionary, etc.
+
+*iterables (optional) - any number of iterables; can be more than one
+
+key (optional) - key function where the iterables are passed and comparison is performed based on its return value
+
+default (optional) - default value if the given iterable is empty
+
+
+
+
+
+
+
+
+
+
+
+2. min() without iterable
+
+To find the smallest item between two or more parameters, we can use this syntax:
+
+min(arg1, arg2, *args, key)
+
+
+
+min() parameters
+
+arg1 - an object; can be numbers, strings, etc.
+
+arg2 - an object; can be numbers, strings, etc.
+
+*args (optional) - any number of objects
+
+key (optional) - key function where each argument is passed, and comparison is performed based on its return value
+
+Basically, the min() function can find the smallest item between two or more objects.

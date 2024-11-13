@@ -1,0 +1,13 @@
+In the second max() function, we have passed a lambda function to the key parameter.
+
+key = lambda k: square[k]
+
+
+The function returns the values of dictionaries. Based on the values (rather than the dictionary's keys),
+the key having the maximum value is returned.
+
+Few Notes:
+
+If we pass an empty iterator, a ValueError exception is raised. To avoid this, we can pass the default parameter.
+
+If we pass more than one iterators, the largest item from the given iterators is returned.

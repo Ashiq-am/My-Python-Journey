@@ -1,0 +1,15 @@
+Here, match variable contains a match object.
+
+Our pattern (\d{3}) (\d{2}) has two subgroups (\d{3}) and (\d{2}).
+You can get the part of the string of these parenthesized subgroups. Here's how:
+
+>>> match.group(1)
+'801'
+
+>>> match.group(2)
+'35'
+>>> match.group(1, 2)
+('801', '35')
+
+>>> match.groups()
+('801', '35')

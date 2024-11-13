@@ -1,0 +1,86 @@
+The help() method calls the built-in Python help system.
+
+The syntax of help() is:
+
+help(object)
+
+
+
+
+
+
+help() Parameters
+
+The help() method takes maximum of one parameter.
+
+object (optional) - you want to generate the help of the given object
+
+
+
+
+
+
+
+
+
+How help() works in Python?
+
+The help() method is used for interactive use.
+It's recommenced to try it in your interpreter when you need help to write Python program and use Python modules.
+
+
+
+
+
+object is passed to help() (not a string)
+Try these on Python shell.
+
+>>> help(list)
+>>> help(dict)
+>>> help(print)
+>>> help([1, 2, 3])
+
+
+If string is passed as an argument, name of a module, function, class, method, keyword, or documentation topic,
+and a help page is printed.
+
+
+
+
+
+
+
+string is passed as an argument to help()
+If string is passed as an argument, the given string is looked up as the name of a module, function, class, method, keyword,
+or documentation topic, and a help page is printed.
+
+Try these on Python shell.
+
+>>> help('random thing')
+
+>>> help('print')
+
+>>> help('def')
+
+>>> from math import *
+    help('math.pow')
+
+
+
+
+
+
+
+no argument is passed to help()
+If no argument is passed, Python's help utility (interactive help system) starts on the console.
+
+>>> help()
+
+Then, you can enter the name of the topic to get help on writing Python programs and using Python modules. For example:
+
+help> True
+help> 'print'
+help > print
+To quit the help utility and return to the interpreter, you need to type quit and press enter.
+
+help > quit

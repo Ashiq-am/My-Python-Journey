@@ -1,0 +1,8 @@
+Consider a situation, you are using a Unix system (macOS, Linux etc) and you have imported os module.
+The os module provides portable way to use operating system functionalities like: read or write a file.
+
+If you allow users to input a value using eval(input()),
+the user may issue commands to change file or even delete all the files using command os.system('rm -rf *').
+
+If you are using eval(input()) in your code, it's a good idea to check which variables and methods the user can use.
+You can see which variables and methods are available using dir() method.

@@ -1,0 +1,35 @@
+The issubclass() function checks if the object argument (first argument) is a subclass of classinfo class (second argument).
+
+The syntax of issubclass() is:
+
+issubclass(object, classinfo)
+
+
+
+
+
+
+
+
+issubclass() Parameters
+
+The issubclass() takes two parameters:
+
+object - class to be checked
+
+classinfo - class, type, or tuple of classes and types
+
+
+
+
+
+
+
+
+Return Value from issubclass()
+
+The issubclass() returns:
+
+True if object is subclass of a class, or any element of the tuple
+
+False otherwise

@@ -1,0 +1,14 @@
+We use the next() function to manually iterate through all the items of an iterator.
+When we reach the end and there is no more data to be returned, it will raise StopIteration.
+
+
+A more elegant way of automatically iterating is by using the for loop.
+Using this, we can iterate over any object that can return an iterator, for example list, string, file etc.
+
+>>> for element in my_list:
+...     print(element)
+...
+4
+7
+0
+3

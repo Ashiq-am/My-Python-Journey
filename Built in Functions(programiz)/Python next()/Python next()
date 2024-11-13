@@ -1,0 +1,31 @@
+The next() function returns the next item from the iterator.
+
+The syntax of next() is:
+
+next(iterator, default)
+
+
+
+
+
+
+
+next() Parameters
+
+iterator - next() retrieves next item from the iterator
+
+default (optional) - this value is returned if the iterator is exhausted (there is no next item)
+
+
+
+
+
+
+
+Return Value from next()
+
+The next() function returns the next item from the iterator.
+
+If the iterator is exhausted, it returns the default value passed as an argument.
+
+If the default parameter is omitted and the iterator is exhausted, it raises StopIteration exception.

@@ -1,0 +1,65 @@
+The staticmethod() built-in function returns a static method for a given function.
+
+The syntax of staticmethod() is:
+
+staticmethod(function)
+
+
+Using staticmethod() is considered a un-Pythonic way of creating a static function.
+
+Hence, in newer versions of Python, you can use the @staticmethod decorator.
+
+
+The syntax of @staticmethod is:
+
+@staticmethod
+def func(args, ...)
+
+
+
+
+
+
+
+
+staticmethod() Parameters
+
+The staticmethod() method takes a single parameter:
+
+function - function that needs to be converted to a static method
+
+
+
+
+
+
+
+Return value from staticmethod()
+The staticmethod() returns a static method for a function passed as the parameter.
+
+
+
+
+
+
+
+
+
+
+What is a static method?
+
+Static methods, much like class methods, are methods that are bound to a class rather than its object.
+
+They do not require a class instance creation. So, they are not dependent on the state of the object.
+
+The difference between a static method and a class method is:
+
+Static method knows nothing about the class and just deals with the parameters.
+Class method works with the class since its parameter is always the class itself.
+
+
+They can be called both by the class and its object.
+
+Class.staticmethodFunc()
+or even
+Class().staticmethodFunc()

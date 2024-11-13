@@ -1,0 +1,55 @@
+The str() function returns the string version of the given object.
+
+The syntax of str() is:
+
+str(object, encoding='utf-8', errors='strict')
+
+
+
+
+
+
+
+
+
+str() Parameters
+The str()method takes three parameters:
+
+
+object - The object whose string representation is to be returned. If not provided, returns the empty string
+
+encoding - Encoding of the given object. Defaults of UTF-8 when not provided.
+
+errors - Response when decoding fails. Defaults to 'strict'.
+
+                      There are six types of errors:
+
+
+strict - default response which raises a UnicodeDecodeError exception on failure
+
+ignore - ignores the unencodable Unicode from the result
+
+replace - replaces the unencodable Unicode to a question mark
+
+xmlcharrefreplace - inserts XML character reference instead of unencodable Unicode
+
+backslashreplace - inserts a \uNNNN espace sequence instead of unencodable Unicode
+
+namereplace - inserts a \N{...} escape sequence instead of unencodable Unicode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Return value from str()
+The str() method returns a string, which is considered an informal or nicely printable representation of the given object.

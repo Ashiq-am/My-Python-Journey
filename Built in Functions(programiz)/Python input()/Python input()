@@ -1,0 +1,33 @@
+The input() method reads a line from input, converts into a string and returns it.
+
+The syntax of input() method is:
+
+input([prompt])
+
+
+
+
+
+
+
+
+
+input() Parameters
+The input() method takes a single optional argument:
+
+prompt (Optional) - a string that is written to standard output (usually screen) without trailing newline
+
+
+
+
+
+
+
+
+
+Return value from input()
+The input() method reads a line from input (usually user), converts the line into a string by removing the trailing newline,
+and returns it.
+
+
+If EOF is read, it raises an EOFError exception.

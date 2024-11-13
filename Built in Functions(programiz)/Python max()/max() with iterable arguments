@@ -1,0 +1,20 @@
+To find the largest item in an iterable, we use this syntax:
+
+
+max(iterable, *iterables, key, default)
+
+
+
+
+
+
+
+max() Parameters
+
+iterable - an iterable such as list, tuple, set, dictionary, etc.
+
+*iterables (optional) - any number of iterables; can be more than one
+
+key (optional) - key function where the iterables are passed and comparison is performed based on its return value
+
+default (optional) - default value if the given iterable is empty

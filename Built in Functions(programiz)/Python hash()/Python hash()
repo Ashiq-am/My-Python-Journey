@@ -1,0 +1,35 @@
+The hash() method returns the hash value of an object if it has one.
+
+Hash values are just integers which are used to compare dictionary keys during a dictionary
+lookup quickly.
+
+Internally, hash() method calls __hash__() method of an object which are set by default for
+any object.
+We'll look at this later.
+
+The syntax of hash() method is:
+
+hash(object)
+
+
+
+
+
+
+
+
+hash() Parameters
+The hash() method takes a single parameter:
+
+object - the object whose hash value is to be returned (integer, string, float)
+
+
+
+
+
+
+Return value from hash()
+The hash() method returns the hash value of an object if it has one.
+
+If an object has custom __hash__() method, it truncates the return value to the size of
+Py_ssize_t.

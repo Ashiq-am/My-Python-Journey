@@ -1,0 +1,31 @@
+The round() function returns a floating-point number rounded to the specified number of decimals.
+
+The syntax of round() is:
+
+round(number, ndigits)
+
+
+
+
+
+
+
+
+round() Parameters
+
+The round() function takes two parameters:
+
+number - the number to be rounded
+
+ndigits (optional) - number up to which the given number is rounded; defaults to 0
+
+
+
+
+
+
+Return value from round()
+
+If ndigits not provided, round()returns the nearest integer to the given number.
+
+If ndigits given, round() returns the number rounded off to the ndigits digits.

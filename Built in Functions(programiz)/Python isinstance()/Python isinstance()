@@ -1,0 +1,35 @@
+The isinstance() function checks if the object (first argument) is an instance or subclass of classinfo class (second argument).
+
+The syntax of isinstance() is:
+
+isinstance(object, classinfo)
+
+
+
+
+
+
+
+isinstance() Parameters
+
+The isinstance() takes two parameters:
+
+object - object to be checked
+
+classinfo - class, type, or tuple of classes and types
+
+
+
+
+
+
+
+
+
+Return Value from isinstance()
+
+The isinstance() returns:
+
+True if the object is an instance or subclass of a class, or any element of the tuple
+
+False otherwise

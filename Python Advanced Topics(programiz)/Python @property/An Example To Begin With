@@ -1,0 +1,38 @@
+We could make objects out of this class and manipulate the attribute temperature as we wished. Try these on Python shell.
+
+>>> # create new object
+>>> man = Celsius()
+
+>>> # set temperature
+>>> man.temperature = 37
+
+>>> # get temperature
+>>> man.temperature
+37
+
+>>> # get degrees Fahrenheit
+>>> man.to_fahrenheit()
+98.60000000000001
+
+
+
+The extra decimal places when converting into Fahrenheit is due to the floating point arithmetic error
+(try 1.1 + 2.2 in the Python interpreter).
+
+Whenever we assign or retrieve any object attribute like temperature, as show above,
+Python searches it in the object's __dict__ dictionary.
+
+>>> man.__dict__
+{'temperature': 37}
+
+
+Therefore, man.temperature internally becomes man.__dict__['temperature'].
+
+Now, let's further assume that our class got popular among clients and they started using it in their programs.
+They did all kinds of assignments to the object.
+
+One fateful day, a trusted client came to us and suggested that temperatures cannot go below
+-273 degree Celsius (students of thermodynamics might argue that it's actually -273.15),
+also called the absolute zero. He further asked us to implement this value constraint.
+Being a company that strive for customer satisfaction,
+we happily heeded the suggestion and released version 1.01 (an upgrade of our existing class).

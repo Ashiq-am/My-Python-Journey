@@ -1,0 +1,32 @@
+The bin() method converts and returns the binary equivalent string of a given integer.
+If the parameter isn't an integer, it has to implement __index__() method to return an integer.
+
+The syntax of bin() method is:
+
+bin(num)
+
+
+
+
+
+
+
+bin() Parameters
+
+The bin() method takes a single parameter:
+
+num - an integer number whose binary equivalent is to be calculated.
+If not an integer, should implement __index__() method to return an integer.
+
+
+
+
+
+
+
+
+
+Return value from bin()
+The bin() method returns the binary string equivalent to the given integer.
+
+If not specified an integer, it raises a TypeError exception highlighting the type cannot be interpreted as an integer.

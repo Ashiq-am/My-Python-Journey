@@ -1,0 +1,2 @@
+The re.subn() is similar to re.sub() expect it returns a tuple of 2 items containing the new string and the number of
+substitutions made.

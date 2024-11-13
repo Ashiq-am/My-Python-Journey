@@ -1,0 +1,7 @@
+As seen from the above example, we have a closure in Python when a nested function references a value in its enclosing scope.
+
+The criteria that must be met to create closure in Python are summarized in the following points.
+
+We must have a nested function (function inside a function).
+The nested function must refer to a value defined in the enclosing function.
+The enclosing function must return the nested function.

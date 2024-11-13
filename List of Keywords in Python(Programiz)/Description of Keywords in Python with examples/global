@@ -1,0 +1,8 @@
+global is used to declare that a variable inside the function is global (outside the function).
+
+If we need to read the value of a global variable, it is not necessary to define it as global. This is understood.
+
+If we need to modify the value of a global variable inside a function, then we must declare it with global.
+Otherwise a local variable with that name is created.
+
+Following example will help us clarify this.

@@ -1,0 +1,59 @@
+Multiple decorators can be chained in Python.
+
+This is to say, a function can be decorated multiple times with different (or same) decorators.
+We simply place the decorators above the desired function.
+
+
+
+
+This will give the output.
+
+
+******************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Hello
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+******************************
+
+
+
+
+
+
+
+
+
+
+The above syntax of,
+
+@star
+@percent
+def printer(msg):
+    print(msg)
+
+
+
+is equivalent to
+
+def printer(msg):
+    print(msg)
+printer = star(percent(printer))
+
+
+
+The order in which we chain decorators matter. If we had reversed the order as,
+
+@percent
+@star
+def printer(msg):
+    print(msg)
+
+
+
+The execution would take place as,
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+******************************
+Hello
+******************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

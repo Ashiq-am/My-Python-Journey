@@ -1,0 +1,39 @@
+A Regular Expression (RegEx) is a sequence of characters that defines a search pattern. For example,
+
+^a...s$
+
+
+The above code defines a RegEx pattern. The pattern is: any five letter string starting with a and ending with s.
+
+A pattern defined using RegEx can be used to match against a string.
+
+
+Expression	                           String	                                Matched?
+
+                                         abs	                                No match
+
+                                        alias	                                 Match
+
+^a...s$                                 abyss	                                 Match
+
+                                        Alias	                                No match
+
+                                      An abacus	                                No match
+
+
+
+
+
+Python has a module named re to work with RegEx. Here's an example:
+
+
+
+Here, we used re.match() function to search pattern within the test_string.
+The method returns a match object if the search is successful. If not, it returns None.
+
+There are other several functions defined in the re module to work with RegEx.
+Before we explore that, let's learn about regular expressions themselves.
+
+
+
+

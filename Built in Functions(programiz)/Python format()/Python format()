@@ -1,0 +1,62 @@
+The built-in format() method returns a formatted representation of the given value controlled by the format specifier.
+
+The format() method is similar to String format method. Internally, both methods call __format__() method of an object.
+
+While, built-in format() method is a low level implementation for formatting an object using __format__() internally,
+string format() is a higher level implementation able to perform complex formatting operations on multiple object string as well.
+
+The syntax of format() is:
+
+format(value[, format_spec])
+
+
+
+
+
+
+
+
+
+
+format() Parameters
+The format() method takes two parameters:
+
+value - value that needs to be formatted
+
+format_spec - The specification on how the value should be formatted.
+
+
+
+
+
+
+
+
+
+
+The format specifier could be in the format:
+
+[[fill]align][sign][#][0][width][,][.precision][type]
+
+where, the options are
+
+fill        ::=  any character
+align       ::=  "<" | ">" | "=" | "^"
+sign        ::=  "+" | "-" | " "
+width       ::=  integer
+precision   ::=  integer
+type        ::=  "b" | "c" | "d" | "e" | "E" | "f" | "F" | "g" | "G" | "n" | "o" | "s" | "x" | "X" | "%"
+
+
+
+
+
+
+
+
+
+
+
+Return value from format()
+
+The format() method returns a formatted representation of a given value specified by the format specifier.

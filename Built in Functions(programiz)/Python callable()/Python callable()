@@ -1,0 +1,37 @@
+The callable() method returns True if the object passed appears callable. If not, it returns False.
+
+The syntax of callable() is:
+
+callable(object)
+
+
+
+
+
+
+
+callable() Parameters
+
+The callable() method takes a single argument object.
+
+
+
+
+
+
+
+
+
+
+
+Return value from callable()
+
+The callable() method returns:
+
+True - if the object appears callable
+
+False - if the object is not callable.
+
+It important to remember that, even if the callable() is True, call to the object may still fail.
+
+However, if the callable() returns False, call to the object will certainly fail.

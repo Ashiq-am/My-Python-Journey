@@ -1,0 +1,33 @@
+The oct() function takes an integer number and returns its octal representation.
+
+The syntax of oct() is:
+
+oct(x)
+
+
+
+
+
+
+
+oct() Parameters
+
+The oct() function takes a single parameter x.
+
+This parameter could be:
+
+an integer number (binary, decimal or hexadecimal)
+
+if not an integer, it should implement __index__() to return an integer
+
+
+
+
+
+
+
+
+
+
+Return value from oct()
+The oct() function returns an octal string from the given integer number.

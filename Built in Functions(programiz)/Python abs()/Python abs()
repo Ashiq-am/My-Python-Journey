@@ -1,0 +1,38 @@
+The abs() method returns the absolute value of the given number. If the number is a complex number,
+abs() returns its magnitude.
+
+The syntax of abs() method is:
+
+abs(num)
+
+
+
+
+
+abs() Parameters
+
+The abs() method takes a single argument:
+
+num - number whose absolute value is to be returned. The number can be:
+
+integer
+
+floating number
+
+complex number
+
+
+
+
+
+
+
+
+Return value from abs()
+The abs() method returns the absolute value of the given number.
+
+For integers - integer absolute value is returned
+
+For floating numbers - floating absolute value is returned
+
+For complex numbers - magnitude of the number is returned

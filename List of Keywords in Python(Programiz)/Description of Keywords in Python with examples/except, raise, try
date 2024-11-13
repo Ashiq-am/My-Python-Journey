@@ -1,0 +1,8 @@
+except, raise, try are used with exceptions in Python.
+
+Exceptions are basically errors that suggests something went wrong while executing our program.
+IOError, ValueError, ZeroDivisionError, ImportError, NameError, TypeError etc. are few examples of exception in Python.
+
+try...except blocks are used to catch exceptions in Python.
+
+We can raise an exception explicitly with the raise keyword. Following is an example:

@@ -1,0 +1,20 @@
+The dict() constructor creates a dictionary in Python.
+
+Different forms of dict() constructors are:
+
+
+
+class dict(**kwarg)
+class dict(mapping, **kwarg)
+class dict(iterable, **kwarg)
+
+
+
+
+Note: **kwarg let you take an arbitrary number of keyword arguments.
+
+A keyword argument is an argument preceded by an identifier (eg. name=). Hence,
+the keyword argument of the form kwarg=value is passed to the dict() constructor to create dictionaries.
+
+The dict() doesn't return any value (returns None).
+

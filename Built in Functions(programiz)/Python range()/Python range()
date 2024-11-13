@@ -1,0 +1,64 @@
+The range() type returns an immutable sequence of numbers between the given start integer to the stop integer.
+
+range() constructor has two forms of definition:
+
+range(stop)
+
+range(start, stop[, step])
+
+
+
+
+range() Parameters
+
+range() takes mainly three arguments having the same use in both definitions:
+
+start - integer starting from which the sequence of integers is to be returned
+
+stop - integer before which the sequence of integers is to be returned.The range of integers end at stop - 1.
+
+step (Optional) - integer value which determines the increment between each integer in the sequence
+
+
+
+
+
+
+
+
+
+
+
+Return value from range()
+
+range() returns an immutable sequence object of numbers depending upon the definitions used:
+
+range(stop)
+
+Returns a sequence of numbers starting from 0 to stop - 1
+
+Returns an empty sequence if stop is negative or 0.
+
+
+
+
+
+
+
+range(start, stop[, step])
+
+The return value is calculated by the following formula with the given constraints:
+
+r[n] = start + step*n (for both positive and negative step)
+where, n >=0 and r[n] < stop (for positive step)
+where, n >= 0 and r[n] > stop (for negative step)
+
+
+(If no step) Step defaults to 1. Returns a sequence of numbers starting from start and ending at stop - 1.
+
+(if step is zero) Raises a ValueError exception
+
+(if step is non-zero) Checks if the value constraint is met and returns a sequence according to the formula
+
+If it doesn't meet the value constraint, Empty sequence is returned.
+

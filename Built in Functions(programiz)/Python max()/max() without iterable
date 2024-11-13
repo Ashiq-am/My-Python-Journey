@@ -1,0 +1,21 @@
+To find the largest object between two or more parameters, we can use this syntax:
+
+max(arg1, arg2, *args, key)
+
+
+
+
+
+
+
+max() parameters
+
+arg1 - an object; can be numbers, strings, etc.
+
+arg2 - an object; can be numbers, strings, etc.
+
+*args (optional) - any number of objects
+
+key (optional) - key function where each argument is passed, and comparison is performed based on its return value
+
+Basically, the max() function finds the largest item between two or more objects.

@@ -1,0 +1,20 @@
+The async and await keywords are provided by the asyncio library in Python. They are used to write concurrent code in Python.
+For example,
+
+import asyncio
+
+async def main():
+    print('Hello')
+    await asyncio.sleep(1)
+    print('world')
+
+
+
+To run the program, we use
+
+asyncio.run(main())
+
+
+In the above program, the async keyword specifies that the function will be executed asynchronously.
+
+Here, first Hello is printed. The await keyword makes the program wait for 1 second. And then the world is printed.

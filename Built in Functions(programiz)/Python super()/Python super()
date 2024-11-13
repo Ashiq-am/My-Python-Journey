@@ -1,0 +1,8 @@
+The super() builtin returns a proxy object (temporary object of the superclass) that allows us to
+access methods of the base class.
+
+In Python, super() has two major use cases:
+
+Allows us to avoid using the base class name explicitly
+
+Working with Multiple Inheritance

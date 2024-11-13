@@ -1,0 +1,26 @@
+The repr() function returns a printable representation of the given object.
+
+The syntax of repr() is:
+
+repr(obj)
+
+
+
+
+
+
+repr() Parameters
+
+The repr() function takes a single parameter:
+
+obj - the object whose printable representation has to be returned
+
+
+
+
+
+
+
+Return value from repr()
+
+The repr() function returns a printable representational string of the given object.

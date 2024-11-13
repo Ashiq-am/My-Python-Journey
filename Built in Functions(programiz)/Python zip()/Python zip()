@@ -1,0 +1,37 @@
+The zip() function takes iterables (can be zero or more), aggregates them in a tuple, and return it.
+
+The syntax of the zip() function is:
+
+zip(*iterables)
+
+
+
+zip() Parameters
+
+Parameter	                                               Description
+
+iterables	                     can be built-in iterables (like: list, string, dict), or user-defined iterable
+
+
+
+
+
+
+
+
+
+
+
+Return Value from zip()
+
+The zip()function returns an iterator of tuples based on the iterable objects.
+
+1.If we do not pass any parameter, zip() returns an empty iterator
+
+2.If a single iterable is passed, zip() returns an iterator of tuples with each tuple having only one element.
+
+3.If multiple iterables are passed, zip() returns an iterator of tuples with each tuple having elements from all the iterables.
+
+
+Suppose, two iterables are passed to zip(); one iterable containing three and other containing five elements.
+Then, the returned iterator will contain three tuples. It's because iterator stops when the shortest iterable is exhausted.

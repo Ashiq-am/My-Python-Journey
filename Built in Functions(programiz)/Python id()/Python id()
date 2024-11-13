@@ -1,0 +1,22 @@
+Python id()
+The id() function returns identity (unique integer) of an object.
+
+The syntax of id() is:
+
+id(object)
+
+
+
+
+
+
+id() Parameters
+The id() function takes a single parameter object.
+
+
+
+
+
+Return Value from id()
+The id() function returns identity of the object.
+This is an integer which is unique for the given object and remains constant during its lifetime.

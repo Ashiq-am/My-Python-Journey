@@ -1,0 +1,64 @@
+The print() function prints the given object to the standard output device (screen) or to the text stream file.
+
+The full syntax of print() is:
+
+
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+
+
+
+
+
+
+
+print() Parameters
+
+objects - object to the printed. * indicates that there may be more than one object
+
+sep - objects are separated by sep. Default value: ' '
+
+end - end is printed at last
+
+file - must be an object with write(string) method. If omitted it, sys.stdout will be used which prints objects on the screen.
+
+flush - If True, the stream is forcibly flushed. Default value: False
+
+
+Note: sep, end, file and flush are keyword arguments. If you want to use sep argument, you have to use:
+
+print(*objects, sep = 'separator')
+
+not
+
+print(*objects, 'separator')
+
+
+
+
+
+
+
+
+
+Return Value from print()
+It doesn't return any value; returns None.
+
+
+
+
+
+
+
+
+
+
+
+
+
+' ' separator is used. Notice, the space between two objects in output.
+
+end parameter '\n' (newline character) is used. Notice, each print statement displays the output in the new line.
+
+file is sys.stdout. The output is printed on the screen.
+
+flush is False. The stream is not forcibly flushed.

@@ -1,0 +1,54 @@
+The float() method returns a floating point number from a number or a string.
+
+The syntax for float() is:
+
+float([x])
+
+
+
+
+
+
+float() Parameters
+
+The float() method takes a single parameter:
+
+x (Optional) - number or string that needs to be converted to floating point number
+If it's a string, the string should contain decimal points
+
+
+                                      Different parameters with float()
+
+Parameter Type	                                        Usage
+
+Float number	                               Use as floating number
+
+Integer	                                           Use as integer
+
+
+
+                                    Must contain decimal numbers.
+
+				                  Leading and trailing whitespaces are removed.
+String
+				                         Optional use of "+", "-" signs.
+
+				            Could contain NaN, Infinity, inf (lowercase or uppercase).
+
+
+
+
+
+
+
+
+Return value from float()
+The float() method returns:
+
+Equivalent floating point number if an argument is passed
+
+0.0 if no arguments passed
+
+OverflowError exception if the argument is outside the range of Python float
+
+

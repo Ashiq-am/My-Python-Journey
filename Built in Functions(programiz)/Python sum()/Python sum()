@@ -1,0 +1,32 @@
+The sum() function adds the items of an iterable and returns the sum.
+
+The syntax of the sum() function is:
+
+sum(iterable, start)
+
+
+The sum() function adds start and items of the given iterable from left to right.
+
+
+
+
+
+
+
+
+sum() Parameters
+
+iterable - iterable (list, tuple, dict, etc). The items of the iterable should be numbers.
+
+start (optional) - this value is added to the sum of items of the iterable. The default value of start is 0 (if omitted)
+
+
+
+
+
+Return Value from sum()
+
+sum() returns the sum of start and items of the given iterable.
+
+
+

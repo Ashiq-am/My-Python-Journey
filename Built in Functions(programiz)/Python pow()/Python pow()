@@ -1,0 +1,26 @@
+The pow() function returns the power of a number.
+
+The syntax of pow() is:
+
+pow(x, y, z)
+
+
+
+
+
+
+pow() Parameters
+The pow() function takes three parameters:
+
+x - a number, the base
+
+y - a number, the exponent
+
+z (optional) - a number, used for modulus
+
+
+Hence,
+
+pow(x, y) is equal to xy
+
+pow(x, y, z) is equal to xy % z

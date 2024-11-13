@@ -1,0 +1,9 @@
+The syntax of re.sub() is:
+
+re.sub(pattern, replace, string)
+The method returns a string where matched occurrences are replaced with the content of replace variable.
+
+
+
+
+

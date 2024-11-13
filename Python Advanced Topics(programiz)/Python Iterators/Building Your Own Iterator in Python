@@ -1,0 +1,50 @@
+Building an iterator from scratch is easy in Python. We just have to implement the methods __iter__() and __next__().
+
+The __iter__() method returns the iterator object itself. If required, some initialization can be performed.
+
+The __next__() method must return the next item in the sequence. On reaching the end, and in subsequent calls,
+it must raise StopIteration.
+
+Here, we show an example that will give us next power of 2 in each iteration. Power exponent starts from zero up to a user set number.
+
+
+
+
+
+
+
+
+
+Now we can create an iterator and iterate through it as follows.
+
+>>> a = PowTwo(4)
+>>> i = iter(a)
+>>> next(i)
+1
+>>> next(i)
+2
+>>> next(i)
+4
+>>> next(i)
+8
+>>> next(i)
+16
+>>> next(i)
+Traceback (most recent call last):
+...
+StopIteration
+
+
+
+
+We can also use a for loop to iterate over our iterator class.
+
+>>> for i in PowTwo(5):
+...     print(i)
+...
+1
+2
+4
+8
+16
+32

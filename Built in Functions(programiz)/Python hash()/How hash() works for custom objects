@@ -1,0 +1,52 @@
+As stated above, hash() method internally calls __hash__() method.
+So, any objects can override the __hash__() for custom hash values.
+
+
+But for correct hash implementation, __hash__() should always return an integer.
+And, both __eq__() and __hash__() methods have to be implemented.
+
+Below are the cases for correct __hash__() override.
+
+
+
+
+                                          Cases for custom hash implementation for objects
+
+
+__eq__()	                                 __hash__()	                                                 Description
+
+Defined (by default)	                  Defined (by default)	                     If left as is, all objects compare unequal
+                                                                                                      (except themselves)
+
+(If mutable) Defined	                  Should not be defined	            Implementation of hashable collection requires key's
+                                                                                                hash value be immutable
+
+Not defined	                             Should not be defined	                      If __eq__() isn't defined, __hash__()
+                                                                                                 should not be defined.
+
+
+
+                                                                      Class instances will not be usable as hashable collection.
+
+
+
+Defined	                                      Not defined                            __hash__() implicity set to None
+
+
+
+                                                                        Raises TypeError exception if tried to retrieve the hash.
+
+
+
+Defined	                                                                  Retain from Parent	__hash__ = <ParentClass>.__hash__
+
+
+
+
+                                                                                 	Doesn't want to hash
+
+Defined                                                                                  __hash__ = None
+
+
+                                                                    Raises TypeError exception if tried to retrieve the hash.
+

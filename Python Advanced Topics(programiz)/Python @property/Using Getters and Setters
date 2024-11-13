@@ -1,0 +1,50 @@
+An obvious solution to the above constraint will be to
+hide the attribute temperature (make it private) and define new getter and setter interfaces to manipulate it.
+This can be done as follows.
+
+
+
+We can see above that new methods get_temperature() and set_temperature() were defined and furthermore,
+temperature was replaced with _temperature. An underscore (_) at the beginning is used to denote private variables in Python.
+
+
+
+>>> c = Celsius(-277)
+Traceback (most recent call last):
+...
+ValueError: Temperature below -273 is not possible
+
+>>> c = Celsius(37)
+>>> c.get_temperature()
+37
+>>> c.set_temperature(10)
+
+>>> c.set_temperature(-300)
+Traceback (most recent call last):
+...
+ValueError: Temperature below -273 is not possible
+
+
+
+
+This update successfully implemented the new restriction. We are no longer allowed to set temperature below -273.
+
+Please note that private variables don't exist in Python.
+There are simply norms to be followed. The language itself don't apply any restrictions.
+
+
+
+>>> c._temperature = -300
+>>> c.get_temperature()
+-300
+
+
+
+But this is not of great concern. The big problem with the above update is that, all the clients who implemented our
+previous class in their program have to modify their code from obj.temperature to obj.get_temperature() and all assignments like obj.
+temperature = val to obj.set_temperature(val).
+
+This refactoring can cause headaches to the clients with hundreds of thousands of lines of codes.
+
+All in all, our new update was not backward compatible. This is where property comes to rescue.
+

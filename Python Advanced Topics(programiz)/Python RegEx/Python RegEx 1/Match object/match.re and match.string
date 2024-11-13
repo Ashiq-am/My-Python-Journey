@@ -1,0 +1,11 @@
+The re attribute of a matched object returns a regular expression object. Similarly, string attribute returns the passed string.
+
+>>> match.re
+re.compile('(\\d{3}) (\\d{2})')
+
+>>> match.string
+'39801 356, 2102 1111'
+
+
+
+We have covered all commonly used methods defined in the re module

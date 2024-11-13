@@ -1,0 +1,36 @@
+The delattr() deletes an attribute from the object (if the object allows it).
+
+The syntax of delattr() is:
+
+delattr(object, name)
+
+
+
+
+
+
+
+
+
+
+
+
+delattr() Parameters
+
+The delattr() takes two parameters:
+
+object - the object from which name attribute is to be removed
+
+name -  a string which must be the name of the attribute to be removed from the object
+
+
+
+
+
+
+
+
+
+Return Value from delattr()
+
+The delattr() doesn't return any value (returns None). It only removes an attribute (if object allows it).

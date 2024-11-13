@@ -1,0 +1,15 @@
+The start() function returns the index of the start of the matched substring. Similarly,
+end() returns the end index of the matched substring.
+
+>>> match.start()
+2
+>>> match.end()
+8
+
+
+
+
+The span() function returns a tuple containing start and end index of the matched part.
+
+>>> match.span()
+(2, 8)

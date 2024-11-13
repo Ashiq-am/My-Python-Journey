@@ -1,0 +1,32 @@
+The set() builtin creates a Python set from the given iterable.
+
+The syntax of set() is:
+
+set(iterable)
+
+
+
+
+set() Parameters
+
+set() takes a single optional parameter:
+
+iterable (optional) - a sequence (string, tuple, etc.)
+                      or collection (set, dictionary, etc.) or an iterator object to be converted into a set.
+
+
+
+
+
+
+
+
+
+
+Return value from set()
+
+set() returns:
+
+an empty set if no parameters are passed
+
+a set constructed from the given iterable parameter

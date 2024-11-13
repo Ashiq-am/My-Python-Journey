@@ -1,0 +1,39 @@
+The int() method returns an integer object from any number or string.
+
+The syntax of int() method is:
+
+int(x=0, base=10)
+
+
+
+
+
+
+
+int() Parameters
+The int() method takes two arguments:
+
+x - Number or string to be converted to integer object.
+Default argument is zero.
+
+base - Base of the number in x.
+Can be 0 (code literal) or 2-36.
+
+
+
+
+
+
+
+
+
+Return value from int()
+
+The int() method returns:
+
+an integer object from the given number or string, treats default base as 10
+
+(No parameters) returns 0
+
+(If base given) treats the string in the given base (0, 2, 8, 10, 16)
+

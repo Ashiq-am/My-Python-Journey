@@ -1,0 +1,22 @@
+1. Factory methods
+
+Factory methods are those methods which return a class object (like constructor) for different use cases.
+
+It is similar to function overloading in C++. Since, Python doesn't have anything as such,
+class methods and static methods are used.
+
+
+
+
+
+
+
+
+
+2. Correct instance creation in inheritance
+Whenever you derive a class from implementing a factory method as a class method, it ensures correct instance creation
+of the derived class.
+
+You can create a static method for the above example but the object it creates, will always be hardcoded as Base class.
+
+But, when you use a class method, it creates the correct instance of the derived class.

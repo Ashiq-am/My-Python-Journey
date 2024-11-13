@@ -1,0 +1,19 @@
+The above example is of less use and we studied it just to get an idea of what was happening in the background.
+
+Normally, generator functions are implemented with a loop having a suitable terminating condition.
+
+Let's take an example of a generator that reverses a string.
+
+
+
+
+
+
+
+
+
+
+In this example, we use range() function to get the index in reverse order using the for loop.
+
+It turns out that this generator function not only works with string, but also with other kind of iterables like list, tuple etc.
+

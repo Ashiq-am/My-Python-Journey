@@ -1,0 +1,32 @@
+The setattr() function sets the value of the attribute of an object.
+
+The syntax of the setattr() function is:
+
+setattr(object, name, value)
+
+If you want to get the attribute of an object, use getattr().
+
+
+
+
+
+
+
+setattr() Parameters
+The setattr() function takes three parameters:
+
+object - object whose attribute has to be set
+
+name - attribute name
+
+value - value given to the attribute
+
+
+
+
+
+
+
+Return value from setattr()
+
+The setattr() method doesn't return anything; returns None.

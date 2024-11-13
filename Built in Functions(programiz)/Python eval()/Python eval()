@@ -1,0 +1,36 @@
+The eval() method parses the expression passed to this method and runs python expression (code) within the program.
+
+In simple terms, the eval() method runs the python code (which is passed as an argument) within the program.
+
+The syntax of eval() is:
+
+eval(expression, globals=None, locals=None)
+
+
+
+
+
+
+
+
+
+eval() Parameters
+
+The eval() takes three parameters:
+
+expression - this string as parsed and evaluated as a Python expression
+
+globals (optional) - a dictionary
+
+locals (optional)- a mapping object. Dictionary is the standard and commonly used mapping type in Python.
+
+The use of globals and locals will be discussed later in this article.
+
+
+
+
+
+
+
+Return Value from eval()
+The eval() method returns the result evaluated from the expression.

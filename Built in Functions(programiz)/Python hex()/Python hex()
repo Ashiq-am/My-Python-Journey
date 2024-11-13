@@ -1,0 +1,30 @@
+The hex() function converts an integer number to the corresponding hexadecimal string.
+
+The syntax of hex() is:
+
+hex(x)
+
+
+
+
+
+
+
+
+
+hex() Parameters
+
+The hex() function takes a single argument.
+
+x - integer number (int object or it has to define __index__() method that returns an integer)
+
+
+
+
+
+
+Return Value from hex()
+The hex() function converts an integer to the corresponding hexadecimal number in string form and returns it.
+
+
+

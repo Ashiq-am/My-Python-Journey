@@ -1,0 +1,83 @@
+More often than not, all the available methods and variables used in the expression
+(first parameter to the eval()) may not be needed, or even may have a security hole.
+You may need to restrict the use of these methods and variables for eval().
+You can do so by passing optional globals and locals parameters (dictionaries) to the eval() method.
+
+
+
+1. When both globals and locals parameters omitted
+
+If both parameters are omitted (as in our earlier examples), the expression is executed in the current scope.
+You can check the available variables and methods using following code:
+
+print(eval('dir()'))
+
+
+
+
+
+
+
+
+2. Passing globals parameter; locals parameter is omitted
+
+The globals and locals parameters (dictionaries) are used for global and local variables respectively.
+If the locals dictionary is omitted, it defaults to globals dictionary.
+Meaning, globals will be used for both global and local variables.
+
+Note: You can check the current global and local dictionary in Python using globals() and
+locals() built-in methods respectively.
+
+Passing empty dictionary as globals parameter
+
+
+
+
+
+If you pass an empty dictionary as globals, only the __builtins__ are available to expression (first parameter to the eval()).
+Even though we have imported math module in the above program,
+expression can't access none of the functions provided by the math module.
+
+When you run the program, the output will be:
+
+['__builtins__']
+
+
+
+
+
+
+
+
+Here, the expression can also use sqrt() and pow() methods along with __builtins__.
+
+Also, it's possible to change the name of the method available for the expression according to your wish.
+
+
+
+
+
+
+
+In the above program, squareRoot() calculates the square root (similar functionality like sqrt()).
+However, trying to use sqrt() will raise an error.
+
+Restricting the Use of built-ins
+You can restrict the use of __builtins__ in the expression as follows:
+
+eval(expression, {'__builtins__': None})
+
+
+
+
+
+
+3. Passing both globals and locals dictionary
+You can make needed functions and variables available for use by passing locals dictionary.
+
+In this program, the expression (first parameter to the eval) can have sqrt() method and variable a only.
+All other methods and variables are unavailable.
+
+Restricting the use of eval() by passing globals and locals dictionary will make your code secure
+particularly when you are using input provided by the user to the eval() method.
+

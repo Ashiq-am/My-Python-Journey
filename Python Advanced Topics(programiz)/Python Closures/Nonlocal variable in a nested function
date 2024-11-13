@@ -1,0 +1,7 @@
+Before getting into what a closure is, we have to first understand what a nested function and nonlocal variable is.
+
+A function defined inside another function is called a nested function. Nested functions can access variables of the enclosing scope.
+
+In Python, these non-local variables are read only by default and we must declare them explicitly as non-local (using nonlocal keyword) in order to modify them.
+
+Following is an example of a nested function accessing a non-local variable.

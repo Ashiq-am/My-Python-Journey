@@ -1,0 +1,41 @@
+Python hasattr()
+
+The hasattr() method returns true if an object has the given named attribute and false if
+it does not.
+
+The syntax of hasattr() method is:
+
+hasattr(object, name)
+
+The hasattr() is called by getattr() to check to see if AttributeError is to be raised or
+not.
+
+
+
+
+
+
+
+hasattr() Parameters
+The hasattr() method takes two parameters:
+
+object - object whose named attribute is to be checked
+
+name - name of the attribute to be searched
+
+
+
+
+
+
+
+
+
+
+Return value from hasattr()
+
+The hasattr() method returns:
+
+True, if object has the given named attribute
+
+False, if object has no given named attribute

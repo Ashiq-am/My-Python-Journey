@@ -1,0 +1,22 @@
+The object() function returns a featureless object which is a base for all classes.
+
+The syntax of object() is:
+
+o = object()
+
+
+
+
+
+object() Parameters
+
+The object() function doesn't accept any parameters.
+
+
+
+
+
+
+
+Return Value from object()
+The object() function returns a featureless object.

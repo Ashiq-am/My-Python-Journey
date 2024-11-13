@@ -1,0 +1,38 @@
+The complex() method returns a complex number when real and imaginary parts are provided, or it converts a string to a complex number.
+
+The syntax of complex() is:
+
+complex([real[, imag]])
+
+
+
+
+
+
+
+
+
+complex() Parameters
+In general, the complex() method takes two parameters:
+
+real - real part. If real is omitted, it defaults to 0.
+
+imag - imaginary part. If imag is omitted, it default to 0.
+
+
+If the first parameter passed to this method is a string, it will be interpreted as a complex number.
+In this case, second parameter shouldn't be passed.
+
+
+
+
+
+
+
+
+
+Return Value from complex()
+As suggested by the name, the complex() method returns a complex number.
+
+If the string passed to this method is not a valid complex number, ValueError exception is raised.
+

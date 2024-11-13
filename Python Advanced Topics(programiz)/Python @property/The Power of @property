@@ -1,0 +1,55 @@
+The pythonic way to deal with the above problem is to use property. Here is how we could have achieved it.
+
+
+And, issue the following code in shell once you run it.
+
+>>> c = Celsius()
+
+
+We added a print() function inside get_temperature() and set_temperature() to clearly observe that they are being executed.
+
+The last line of the code, makes a property object temperature.
+Simply put, property attaches some code (get_temperature and set_temperature) to the member attribute accesses (temperature).
+
+Any code that retrieves the value of temperature will automatically call get_temperature() instead of a dictionary (__dict__) look-up.
+Similarly, any code that assigns a value to temperature will automatically call set_temperature().
+This is one cool feature in Python.
+
+We can see above that set_temperature() was called even when we created an object.
+
+
+
+Can you guess why?
+
+The reason is that when an object is created, __init__() method gets called.
+This method has the line self.temperature = temperature. This assignment automatically called set_temperature().
+
+
+>>> c.temperature
+Getting value
+0
+
+
+
+
+
+Similarly, any access like c.temperature automatically calls get_temperature().
+This is what property does. Here are a few more examples.
+
+>>> c.temperature = 37
+Setting value
+
+>>> c.to_fahrenheit()
+Getting value
+98.60000000000001
+
+
+
+
+
+
+By using property, we can see that, we modified our class and implemented the value constraint without any change required to the client code.
+Thus our implementation was backward compatible and everybody is happy.
+
+Finally note that, the actual temperature value is stored in the private variable _temperature.
+The attribute temperature is a property object which provides interface to this private variable.

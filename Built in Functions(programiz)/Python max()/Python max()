@@ -1,0 +1,10 @@
+The Python max() function returns the largest item in an iterable.
+It can also be used to find the largest item between two or more parameters.
+
+The max() function has two forms:
+
+// to find the largest item in an iterable
+max(iterable, *iterables, key, default)
+
+// to find the largest item between two or more objects
+max(arg1, arg2, *args, key)

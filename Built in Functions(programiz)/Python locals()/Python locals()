@@ -1,0 +1,65 @@
+Python locals()
+The locals() method updates and returns a dictionary of the current local symbol table.
+
+A symbol table is a data structure maintained by a compiler which contains all necessary information about the program.
+
+These include variable names, methods, classes, etc.
+
+There are mainly two kinds of symbol table.
+
+1.Global symbol table
+
+2.Local symbol table
+
+
+
+A Global symbol table stores all information related to the global scope of the program, and is accessed in
+Python using globals() method.
+
+The global scope contains all functions, variables which are not associated to any class or function.
+
+Likewise, Local symbol table stores all information related to the local scope of the program,
+and is accessed in Python using locals() method.
+
+The local scope could be within a function, within a class, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Syntax of locals()
+
+The syntax of locals() method is:
+
+locals()
+
+
+
+
+
+
+
+
+
+
+locals() Parameters
+The locals() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+
+Return value from locals()
+The locals() method updates and returns the dictionary associated with the current local symbol table.

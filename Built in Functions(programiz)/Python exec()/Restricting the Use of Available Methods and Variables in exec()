@@ -1,0 +1,34 @@
+More often than not, all the available methods and variables used in exec() may not be needed, or even may have a security hole.
+You can restrict the use of these variables and methods by passing optional globals and locals parameters (dictionaries) to the exec() method.
+
+
+
+
+
+1. Both globals and locals parameters are omitted
+
+If both parameters are omitted (as in our earlier examples), the code expected to be executed by exec() is executed
+in the current scope. You can check the available variables and methods using the following code:
+
+exec('print(dir())')
+
+
+
+2. Passing globals parameter; locals parameter is omitted
+The globals and locals parameters (dictionaries) are used for global and local variables respectively.
+If the locals dictionary is omitted, it defaults to globals dictionary.
+Meaning, globals will be used for both global and local variables.
+
+Note: You can check the current global and local dictionary in Python using globals() and locals() built-in methods respectively.
+
+Passing empty dictionary as globals parameter
+
+
+
+If you pass an empty dictionary as globals, only the __builtins__ are available to the object (first parameter to the exec()).
+Even though we have imported math module in the above program,
+trying to access any of the functions provided by the math module will raise an exception.
+
+When you run the program, the output will be:
+
+['__builtins__']

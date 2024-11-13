@@ -1,0 +1,38 @@
+The __import__() is a function that is called by the import statement.
+
+The syntax of the __import__() function is:
+
+__import__(name, globals=None, locals=None, fromlist=(), level=0)
+
+
+
+
+
+
+
+
+__import__() Parameters
+
+name - the name of the module you want to import
+
+globals and locals - determines how to interpret name
+
+fromlist - objects or submodules that should be imported by name
+
+level - specifies whether to use absolute or relative imports
+
+
+
+
+
+
+
+
+Use of __import__() is Discouraged
+
+This __import__() function is not necessary for everyday Python program. It is rarely used and often discouraged.
+
+This function can be used to change the semantics of the import statement as the statement calls this function.
+Instead, it is better to use import hooks.
+
+And, if you want to import a module by name, use importlib.import_module().

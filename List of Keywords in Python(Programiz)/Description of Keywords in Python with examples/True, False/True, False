@@ -1,0 +1,33 @@
+True and False are truth values in Python.
+They are the results of comparison operations or logical (Boolean) operations in Python. For example:
+
+
+
+
+>>> 1 == 1
+True
+>>> 5 > 3
+True
+>>> True or False
+True
+>>> 10 <= 1
+False
+>>> 3 > 7
+False
+>>> True and False
+False
+
+
+
+
+
+
+Here we can see that the first three statements are true so the interpreter returns True and returns False for the remaining
+three statements. True and False in python is same as 1 and 0. This can be justified with the following example:
+
+>>> True == 1
+True
+>>> False == 0
+True
+>>> True + True
+2

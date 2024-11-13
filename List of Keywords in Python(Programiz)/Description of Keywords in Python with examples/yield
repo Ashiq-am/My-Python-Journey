@@ -1,0 +1,27 @@
+yield is used inside a function like a return statement. But yield returns a generator.
+
+Generator is an iterator that generates one item at a time. A large list of value will take up a lot of memory.
+Generators are useful in this situation as it generates only one value at a time instead of storing all the values in memory.
+For example,
+
+
+
+>>> g = (2**x for x in range(100))
+
+
+
+will create a generator g which generates powers of 2 up to the number two raised to the power 99.
+We can generate the numbers using the next() function as shown below.
+
+
+
+>>> next(g)
+1
+>>> next(g)
+2
+>>> next(g)
+4
+>>> next(g)
+8
+>>> next(g)
+16

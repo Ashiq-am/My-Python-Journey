@@ -1,0 +1,3 @@
+lambda is used to create an anonymous function (function with no name). It is an inline function that does not contain a return statement.
+
+It consists of an expression that is evaluated and returned. For example:
