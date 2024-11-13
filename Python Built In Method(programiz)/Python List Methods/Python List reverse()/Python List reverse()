@@ -1,0 +1,26 @@
+The reverse() method reverses the elements of a given list.
+
+The syntax of reverse() method is:
+
+list.reverse()
+
+
+
+
+
+
+
+
+reverse() parameter
+The reverse() function doesn't take any argument.
+
+
+
+
+
+
+
+
+Return Value from reverse()
+The reverse() function doesn't return any value. It only reverses the elements and updates the list.
+

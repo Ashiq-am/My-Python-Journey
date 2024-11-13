@@ -1,0 +1,6 @@
+We can access a range of items in a tuple by using the slicing operator - colon ":".
+
+
+Slicing can be best visualized by considering the index to be between the elements as shown below.
+So if we want to access a range, we need the index that will slice the portion from the tuple.
+

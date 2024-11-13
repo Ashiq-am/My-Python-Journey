@@ -1,0 +1,3 @@
+It's possible to pass a tuple suffixes to the endswith() method in Python.
+
+If the string ends with any item of the tuple, endswith() returns True. If not, it returns False

@@ -1,0 +1,35 @@
+The index() method searches an element in a tuple and returns its index.
+
+In simple terms, index() method searches for the given element in a tuple and returns its position.
+
+However, if the same element is present more than once, the first/smallest position is returned.
+
+Note: Remember index in Python starts from 0 and not 1.
+
+
+
+The syntax of index() method for Tuple is:
+
+tuple.index(element)
+
+
+
+
+
+Tuple index() parameters
+index() method takes a single argument:
+
+element - element that is to be searched.
+
+
+
+
+
+
+
+Return value from Tuple index()
+
+The index method returns the position/index of the given element in the tuple.
+
+If no element is found, a ValueError exception is raised indicating the element is not found.
+

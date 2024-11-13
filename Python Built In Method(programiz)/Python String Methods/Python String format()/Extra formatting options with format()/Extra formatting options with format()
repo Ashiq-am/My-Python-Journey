@@ -1,0 +1,5 @@
+format() also supports type-specific formatting options like datetime's and complex number formatting.
+
+format() internally calls __format__() for datetime, while format() accesses the attributes of the complex number.
+
+You can easily override the __format__() method of any object for custom formatting.

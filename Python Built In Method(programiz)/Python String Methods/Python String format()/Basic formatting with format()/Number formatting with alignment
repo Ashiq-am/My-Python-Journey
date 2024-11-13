@@ -1,0 +1,14 @@
+The operators <, ^, > and = are used for alignment when assigned a certain width to the numbers.
+
+
+                                                Number formatting with alignment
+
+Type	                                                       Meaning
+
+<	                                          Left aligned to the remaining space
+
+^	                                         Center aligned to the remaining space
+
+>	                                          Right aligned to the remaining space
+
+=	                                  Forces the signed (+) (-) to the leftmost position

@@ -1,0 +1,17 @@
+The time.ctime() function takes seconds passed since epoch as an argument and returns a string representing local time.
+
+
+
+import time
+
+# seconds passed since epoch
+seconds = 1545925769.9618232
+local_time = time.ctime(seconds)
+print("Local time:", local_time)
+
+
+
+
+If you run the program, the output will be something like:
+
+Local time: Thu Dec 27 15:49:29 2018

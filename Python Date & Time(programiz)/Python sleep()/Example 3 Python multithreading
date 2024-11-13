@@ -1,0 +1,39 @@
+All the programs above in this article are single-threaded programs.
+Here's an example of a multithreaded Python program.
+
+
+import threading
+
+def print_hello_three_times():
+  for i in range(3):
+    print("Hello")
+
+def print_hi_three_times():
+    for i in range(3):
+      print("Hi")
+
+t1 = threading.Thread(target=print_hello_three_times)
+t2 = threading.Thread(target=print_hi_three_times)
+
+t1.start()
+t2.start()
+
+
+
+When you run the program, the output will be something like:
+
+
+Hello
+Hello
+Hi
+Hello
+Hi
+Hi
+
+
+The above program has two threads t1 and t2. These threads are run using t1.start() and t2.start() statements.
+
+
+
+
+Note that, t1 and t2 run concurrently and you might get different output.

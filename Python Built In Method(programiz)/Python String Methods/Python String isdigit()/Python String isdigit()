@@ -1,0 +1,48 @@
+The isdigit() method returns True if all characters in a string are digits. If not, it returns False.
+
+The syntax of isdigit() is
+
+string.isdigit()
+
+
+
+
+
+isdigit() Parameters
+The isdigit() doesn't take any parameters.
+
+
+
+
+
+
+
+
+
+Return Value from isdigit()
+The isdigit() returns:
+
+True if all characters in the string are digits.
+
+False if at least one character is not a digit.
+
+
+
+
+
+
+
+
+
+A digit is a character that has property value:
+
+Numeric_Type=Digit
+Numeric_Type=Decimal
+
+In Python, superscript and subscripts (usually written using unicode) are also considered digit characters.
+Hence, if the string contains these characters along with decimal characters, isdigit() returns True.
+
+The roman numerals, currency numerators and fractions (usually written using unicode) are considered numeric characters
+but not digits. The isdigit() returns False if the string contains these characters.
+
+To check whether a character is numeric character or not, you can use isnumeric() method.

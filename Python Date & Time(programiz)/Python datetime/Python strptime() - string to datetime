@@ -1,0 +1,1 @@
+The strptime() method creates a datetime object from a given string (representing date and time).

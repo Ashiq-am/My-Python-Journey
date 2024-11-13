@@ -1,0 +1,36 @@
+import time
+
+while True:
+  localtime = time.localtime()
+  result = time.strftime("%I:%M:%S %p", localtime)
+  print(result)
+  time.sleep(1)
+
+
+
+In the above program, we computed and printed the current local time inside the infinite while loop.
+Then, the program waits for 1 second. Again, the current local time is computed and printed. This process goes on.
+
+When you run the program, the output will be something like:
+
+02:10:50 PM
+02:10:51 PM
+02:10:52 PM
+02:10:53 PM
+02:10:54 PM
+... .. ...
+
+
+
+
+Here is a slightly modified better version of the above program.
+
+
+import time
+
+while True:
+  localtime = time.localtime()
+  result = time.strftime("%I:%M:%S %p", localtime)
+  print(result, end="", flush=True)
+  print("\r", end="", flush=True)
+  time.sleep(1)

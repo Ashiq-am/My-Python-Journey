@@ -1,0 +1,4 @@
+When copy() method is used, a new dictionary is created which is filled with a copy of the references from the original dictionary.
+
+
+When = operator is used, a new reference to the original dictionary is created.

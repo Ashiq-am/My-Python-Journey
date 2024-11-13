@@ -1,0 +1,8 @@
+We can use the index operator [] to access an item in a tuple where the index starts from 0.
+
+So, a tuple having 6 elements will have indices from 0 to 5. Trying to access an element outside of tuple (for example, 6, 7,...)
+will raise an IndexError.
+
+The index must be an integer; so we cannot use float or other types. This will result in TypeError.
+
+Likewise, nested tuples are accessed using nested indexing, as shown in the example below.

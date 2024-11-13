@@ -1,0 +1,26 @@
+Joining of two or more strings into a single one is called concatenation.
+
+The + operator does this in Python. Simply writing two string literals together also concatenates them.
+
+The * operator can be used to repeat the string for a given number of times.
+
+
+
+
+
+
+
+
+Writing two string literals together also concatenates them like + operator.
+
+If we want to concatenate strings in different lines, we can use parentheses.
+
+>>> # two string literals together
+>>> 'Hello ''World!'
+'Hello World!'
+
+>>> # using parentheses
+>>> s = ('Hello '
+...      'World')
+>>> s
+'Hello World'

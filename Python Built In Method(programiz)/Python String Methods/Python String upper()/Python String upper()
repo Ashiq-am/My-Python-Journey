@@ -1,0 +1,42 @@
+The string upper() method converts all lowercase characters in a string into uppercase characters and returns it.
+
+The syntax of upper() method is:
+
+string.upper()
+
+
+
+
+
+
+
+
+
+String upper() Parameters()
+The upper() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+
+
+Return value from String upper()
+The upper() method returns the uppercased string from the given string. It converts all lowecase characters to uppercase.
+
+If no lowercase characters exist, it returns the original string.
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+The append() method adds an item to the end of the list.
+
+The append() method adds a single item to the end of the list.
+
+The syntax of the append() method is:
+
+list.append(item)
+
+
+
+
+
+append() Parameters
+
+The method takes a single argument
+
+item - an item to be added at the end of the list
+The item can be numbers, strings, dictionaries, another list, and so on.
+
+
+
+
+
+Return Value from append()
+The method doesn't return any value (returns None).
+
+
+
+
+
+

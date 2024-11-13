@@ -1,0 +1,17 @@
+The strptime() function parses a string representing time and returns struct_time.
+
+
+import time
+
+time_string = "21 June, 2018"
+result = time.strptime(time_string, "%d %B, %Y")
+
+print(result)
+
+
+
+
+When you run the program, the output will be:
+
+
+time.struct_time(tm_year=2018, tm_mon=6, tm_mday=21, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=3, tm_yday=172, tm_isdst=-1)

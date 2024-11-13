@@ -1,0 +1,10 @@
+sort() method accepts a reverse parameter as an optional argument.
+
+
+Setting reverse=True sorts the list in the descending order.
+
+list.sort(reverse=True)
+
+Alternately for sorted(), you can use the following code.
+
+sorted(list, reverse=True)

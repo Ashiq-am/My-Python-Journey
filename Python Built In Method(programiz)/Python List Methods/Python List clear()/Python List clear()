@@ -1,0 +1,19 @@
+The clear() method removes all items from the list.
+
+The syntax of clear() method is:
+
+list.clear()
+
+
+
+
+
+clear() Parameters
+The clear() method doesn't take any parameters.
+
+
+
+
+
+Return Value from clear()
+The clear() method only empties the given list. It doesn't return any value.

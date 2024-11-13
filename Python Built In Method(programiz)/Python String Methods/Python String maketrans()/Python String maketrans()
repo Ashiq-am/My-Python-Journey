@@ -1,0 +1,53 @@
+The string maketrans() method returns a mapping table for translation usable for translate() method.
+
+In simple terms, the maketrans() method is a static method that creates a one to one mapping of a character to its translation/replacement.
+
+It creates a Unicode representation of each character for translation.
+
+This translation mapping is then used for replacing a character to its mapped character when used in translate() method.
+
+The syntax of maketrans() method is:
+
+string.maketrans(x[, y[, z]])
+
+
+
+Here, y and z are optional arguments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+String maketrans() Parameters
+The maketrans() method takes 3 parameters:
+
+x - If only one argument is supplied, it must be a dictionary.
+The dictionary should contain 1-to-1 mapping from a single character string to its translation OR a
+unicode number (97 for 'a') to its translation.
+
+y - If two arguments are passed, it must be two strings with equal length.
+Each character in the first string is a replacement to its corresponding index in the second string.
+
+z - If three arguments are passed, each character in the third argument is mapped to None.
+
+
+
+
+
+
+
+
+
+
+
+Return value from String maketrans()
+The maketrans() method returns a translation table with a 1-to-1 mapping of a Unicode ordinal to its translation/replacement.

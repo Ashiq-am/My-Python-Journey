@@ -1,0 +1,37 @@
+The string translate() method returns a string where each character is mapped to its corresponding character in the translation table.
+
+The translate() method takes the translation table to replace/translate characters in the given string as per the mapping table.
+
+The translation table is created by the static method maketrans().
+
+The syntax of the translate() method is:
+
+string.translate(table)
+
+
+
+
+
+
+
+
+
+
+
+
+
+String translate() Parameters
+The translate() method takes a single parameter:
+
+table - a translation table containing the mapping between two characters; usually created by maketrans()
+
+
+
+
+
+
+
+
+Return value from String translate()
+The translate() method returns a string where each character is mapped to its corresponding character as per the translation table.
+

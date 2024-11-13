@@ -1,0 +1,44 @@
+Function	                                                  Description
+
+seed(a=None, version=2)	                       Initialize the random number generator
+
+getstate()	                        Returns an object capturing the current internal state of the generator
+
+setstate(state)	                                Restores the internal state of the generator
+
+getrandbits(k)	                                Returns a Python integer with k random bits
+
+randrange(start, stop[, step])	                Returns a random integer from the range
+
+randint(a, b)	                            Returns a random integer between a and b inclusive
+
+choice(seq)	                               Return a random element from the non-empty sequence
+
+shuffle(seq)	                                          Shuffle the sequence
+
+sample(population, k)	                Return a k length list of unique elements chosen from the population sequence
+
+random()	                             Return the next random floating point number in the range [0.0, 1.0)
+
+uniform(a, b)	                            Return a random floating point number between a and b inclusive
+
+triangular(low, high, mode)	                Return a random floating point number between low and high,
+                                                     with the specified mode between those bounds
+
+betavariate(alpha, beta)	                                  Beta distribution
+
+expovariate(lambd)	                                      Exponential distribution
+
+gammavariate(alpha, beta)	                                Gamma distribution
+
+gauss(mu, sigma)	                                      Gaussian distribution
+
+lognormvariate(mu, sigma)	                             Log normal distribution
+
+normalvariate(mu, sigma)	                               Normal distribution
+
+vonmisesvariate(mu, kappa)	                              Vonmises distribution
+
+paretovariate(alpha)	                                   Pareto distribution
+
+weibullvariate(alpha, beta)	                               Weibull distribution

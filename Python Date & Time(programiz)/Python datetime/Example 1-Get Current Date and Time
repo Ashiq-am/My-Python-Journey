@@ -1,0 +1,20 @@
+
+
+
+import datetime
+
+datetime_object = datetime.datetime.now()
+print(datetime_object)
+
+
+When you run the program, the output will be something like:
+
+2018-12-19 09:26:03.478039
+
+
+
+
+Here, we have imported datetime module using import datetime statement.
+
+One of the classes defined in the datetime module is datetime class.
+We then used now() method to create a datetime object containing the current local date and time.

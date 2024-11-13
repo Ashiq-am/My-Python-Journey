@@ -1,0 +1,27 @@
+In Python, the capitalize() method converts first character of a string to uppercase letter and
+lowercases all other characters, if any.
+
+The syntax of capitalize() is:
+
+string.capitalize()
+
+
+
+
+
+
+
+
+
+capitalize() Parameter
+The capitalize() function doesn't take any parameter.
+
+
+
+
+
+
+
+Return Value from capitalize()
+The capitalize() function returns a string with first letter capitalized and all other characters lowercased.
+It doesn't modify the original string.

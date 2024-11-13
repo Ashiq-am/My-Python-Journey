@@ -1,0 +1,3 @@
+As discussed above, we cannot change the elements in a tuple. That also means we cannot delete or remove items from a tuple.
+
+But deleting a tuple entirely is possible using the keyword del.

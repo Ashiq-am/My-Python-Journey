@@ -1,0 +1,19 @@
+Symmetric Difference of A and B is a set of elements in both A and B except those that are common in both.
+
+Symmetric difference is performed using ^ operator. Same can be accomplished using the method symmetric_difference().
+
+
+
+
+
+
+Try the following examples on Python shell.
+
+
+# use symmetric_difference function on A
+>>> A.symmetric_difference(B)
+{1, 2, 3, 6, 7, 8}
+
+# use symmetric_difference function on B
+>>> B.symmetric_difference(A)
+{1, 2, 3, 6, 7, 8}

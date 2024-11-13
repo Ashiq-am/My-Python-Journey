@@ -1,0 +1,25 @@
+The localtime() function takes the number of seconds passed since epoch as an argument and returns struct_time in local time.
+
+
+
+import time
+
+result = time.localtime(1545925769)
+print("result:", result)
+print("\nyear:", result.tm_year)
+print("tm_hour:", result.tm_hour)
+
+
+
+
+When you run the program, the output will be something like:
+
+result: time.struct_time(tm_year=2018, tm_mon=12, tm_mday=27, tm_hour=15, tm_min=49, tm_sec=29, tm_wday=3, tm_yday=361, tm_isdst=0)
+
+year: 2018
+tm_hour: 15
+
+
+
+If no argument or None is passed to localtime(), the value returned by time() is used.
+

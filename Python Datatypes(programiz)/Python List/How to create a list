@@ -1,0 +1,18 @@
+In Python programming, a list is created by placing all the items (elements) inside a square bracket [ ], separated by commas.
+
+It can have any number of items and they may be of different types (integer, float, string etc.).
+
+# empty list
+my_list = []
+
+# list of integers
+my_list = [1, 2, 3]
+
+# list with mixed datatypes
+my_list = [1, "Hello", 3.4]
+
+
+Also, a list can even have another list as an item. This is called nested list.
+
+# nested list
+my_list = ["mouse", [8, 4, 6], ['a']]

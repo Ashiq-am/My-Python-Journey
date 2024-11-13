@@ -1,0 +1,36 @@
+The string rjust() method returns a right-justified string of a given minimum width.
+
+The syntax of rjust() method is:
+
+string.rjust(width[, fillchar])
+
+
+Here, fillchar is an optional parameter.
+
+
+
+
+
+
+
+
+
+String rjust() Parameters
+The rjust() method takes two parameters:
+
+width - width of the given string. If width is less than or equal to the length of the string, original string is returned.
+
+fillchar (Optional) - character to fill the remaining space of the width
+
+
+
+
+
+
+
+
+
+Return value from String rjust()
+The rjust() method returns the right-justified string within the given minimum width.
+
+If fillchar is defined, it fills the remaining space with the defined character.

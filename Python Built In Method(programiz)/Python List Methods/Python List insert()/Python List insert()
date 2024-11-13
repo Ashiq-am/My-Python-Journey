@@ -1,0 +1,22 @@
+The insert() method inserts an element to the list at a given index.
+
+The syntax of insert() method is
+
+list.insert(index, element)
+
+
+
+
+
+insert() Parameters
+The insert() function takes two parameters:
+
+index - position where an element needs to be inserted
+
+element - this is the element to be inserted in the list
+
+
+
+
+Return Value from insert()
+The insert() method only inserts the element to the list. It doesn't return anything; returns None.

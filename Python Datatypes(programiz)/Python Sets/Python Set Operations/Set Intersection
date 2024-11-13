@@ -1,0 +1,16 @@
+Intersection of A and B is a set of elements that are common in both sets.
+
+Intersection is performed using & operator. Same can be accomplished using the method intersection().
+
+
+
+Try the following examples on Python shell.
+
+
+# use intersection function on A
+>>> A.intersection(B)
+{4, 5}
+
+# use intersection function on B
+>>> B.intersection(A)
+{4, 5}

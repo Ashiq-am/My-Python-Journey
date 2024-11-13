@@ -1,0 +1,20 @@
+Union of A and B is a set of all elements from both sets.
+
+Union is performed using | operator. Same can be accomplished using the method union().
+
+
+
+
+
+
+
+Try the following examples on Python shell.
+
+
+# use union function
+>>> A.union(B)
+{1, 2, 3, 4, 5, 6, 7, 8}
+
+# use union function on B
+>>> B.union(A)
+{1, 2, 3, 4, 5, 6, 7, 8}

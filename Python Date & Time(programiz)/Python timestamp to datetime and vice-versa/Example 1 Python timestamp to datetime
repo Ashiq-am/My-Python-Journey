@@ -1,0 +1,28 @@
+from datetime import datetime
+
+timestamp = 1545730073
+dt_object = datetime.fromtimestamp(timestamp)
+
+print("dt_object =", dt_object)
+print("type(dt_object) =", type(dt_object))
+
+
+
+When you run the program, the output will be:
+
+
+dt_object = 2018-12-25 09:27:53
+type(dt_object) = <class 'datetime.datetime'>
+
+
+
+Here, we have imported datetime class from the datetime module.
+ Then, we used datetime.fromtimestamp() classmethod which returns the local date and time (datetime object).
+ This object is stored in dt_object variable.
+
+
+
+
+
+
+Note: You can easily create a string representing date and time from a datetime object using strftime() method.

@@ -1,0 +1,46 @@
+The intersection() method returns a new set with elements that are common to all sets.
+
+The intersection of two or more sets is the set of elements which are common to all sets. For example:
+
+A = {1, 2, 3, 4}
+B = {2, 3, 4,  9}
+C = {2, 4, 9 10}
+
+Then,
+A∩B = B∩A ={2, 3, 4}
+A∩C = C∩A ={2, 4}
+B∩C = C∩B ={2, 4, 9}
+
+A∩B∩C = {2, 4}
+
+
+
+
+
+
+
+
+The syntax of intersection() in Python is:
+
+A.intersection(*other_sets)
+
+
+
+
+
+
+intersection() Parameters
+
+The intersection() allows arbitrary number of arguments (sets).
+
+Note: * is not part of the syntax. It is used to indicate that the method allows arbitrary number of arguments.
+
+
+
+
+Return Value from Intersection()
+
+The intersection() method returns the intersection of set A with all the sets (passed as argument).
+
+
+If argument is not passed to intersection(), it returns a shallow copy the set (A).

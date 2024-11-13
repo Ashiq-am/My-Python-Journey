@@ -1,0 +1,26 @@
+Difference of A and B (A - B) is a set of elements that are only in A but not in B.
+Similarly, B - A is a set of element in B but not in A.
+
+Difference is performed using - operator. Same can be accomplished using the method difference().
+
+
+
+
+
+
+
+
+Try the following examples on Python shell.
+
+
+# use difference function on A
+>>> A.difference(B)
+{1, 2, 3}
+
+# use - operator on B
+>>> B - A
+{8, 6, 7}
+
+# use difference function on B
+>>> B.difference(A)
+{8, 6, 7}

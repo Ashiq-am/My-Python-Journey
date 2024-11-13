@@ -1,0 +1,30 @@
+The popitem() returns and removes an arbitrary element (key, value) pair from the dictionary.
+
+The syntax of popitem() is:
+
+dict.popitem()
+
+
+
+
+
+
+
+
+popitem() Parameters
+The popitem() doesn't take any parameters.
+
+
+
+
+
+
+
+
+Return Value from popitem()
+
+The popitem()
+
+returns an arbitrary element (key, value) pair from the dictionary
+
+removes an arbitrary element (the same element which is returned) from the dictionary.

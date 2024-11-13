@@ -1,0 +1,31 @@
+The string isupper() method returns whether or not all characters in a string are uppercased or not.
+
+The syntax of isupper() method is:
+
+string.isupper()
+
+
+
+
+
+
+
+
+String isupper() Parameters
+The isupper() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+
+
+Return value from String isupper()
+The isupper() method returns:
+
+True if all characters in a string are uppercase characters
+
+False if any characters in a string are lowercase characters

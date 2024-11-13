@@ -1,0 +1,38 @@
+The update() method updates the dictionary with the elements from the another dictionary object or from an iterable
+of key/value pairs.
+
+The update() method adds element(s) to the dictionary if the key is not in the dictionary.
+If the key is in the dictionary, it updates the key with the new value.
+
+The syntax of update() is:
+
+dict.update([other])
+
+
+
+
+
+
+
+
+
+
+
+
+update() Parameters
+The update() method takes either a dictionary or an iterable object of key/value pairs (generally tuples).
+
+If update() is called without passing parameters, the dictionary remains unchanged.
+
+
+
+
+
+
+Return Value from update()
+
+They update() method updates the dictionary with elements from a dictionary object or an iterable object of key/value pairs.
+
+It doesn't return any value (returns None).
+
+

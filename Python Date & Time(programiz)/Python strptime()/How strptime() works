@@ -1,0 +1,23 @@
+The strptime() class method takes two arguments:
+
+string (that be converted to datetime)
+format code
+Based on the string and format code used, the method returns its equivalent datetime object.
+
+In the above example:
+
+
+date_string = "21 June, 2020"
+.........
+
+date object = datetime.strptime(date_string,"%d %B, %Y")
+
+
+
+
+
+Here,
+
+%d - Represents the day of the month. Example: 01, 02, ..., 31
+%B - Month's name in full. Example: January, February etc.
+%Y - Year in four digits. Example: 2018, 2019 etc.

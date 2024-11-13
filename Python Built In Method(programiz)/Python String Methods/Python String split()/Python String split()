@@ -1,0 +1,34 @@
+The split() method breaks up a string at the specified separator and returns a list of strings.
+
+The syntax of split() is:
+
+str.split([separator [, maxsplit]])
+
+
+
+
+
+
+
+
+
+
+split() Parameters
+The split() method takes maximum of 2 parameters:
+
+separator (optional)- The is a delimiter. The string splits at the specified separator.
+If the separator is not specified, any whitespace (space, newline etc.) string is a separator.
+
+maxsplit (optional) - The maxsplit defines the maximum number of splits.
+The default value of maxsplit is -1, meaning, no limit on the number of splits.
+
+
+
+
+
+
+
+
+Return Value from split()
+The split() breaks the string at the separator and returns a list of strings.
+

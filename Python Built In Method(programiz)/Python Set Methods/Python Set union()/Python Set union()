@@ -1,0 +1,44 @@
+The Python set union() method returns a new set with distinct elements from all the sets.
+
+The union of two or more sets is the set of all distinct elements present in all the sets. For example:
+
+A = {1, 2}
+B = {2, 3, 4}
+C = {5}
+
+Then,
+A∪B = B∪A = {1, 2, 3, 4}
+
+A∪C = C∪A = {1, 2, 5}
+
+B∪C = C∪B = {2, 3, 4, 5}
+
+A∪B∪C = {1, 2, 3, 4, 5}
+
+
+
+
+
+
+
+
+The syntax of union() is:
+
+A.union(*other_sets)
+
+Note: * is not part of the syntax. It is used to indicate that the method can take 0 or more arguments.
+
+
+
+
+
+
+
+
+
+
+Return Value from union()
+
+The union() method returns a new set with elements from the set and all other sets (passed as an argument).
+
+If the argument is not passed to union(), it returns a shallow copy of the set.

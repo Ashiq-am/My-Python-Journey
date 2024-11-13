@@ -1,0 +1,2 @@
+Strings can be created by enclosing characters inside a single quote or double-quotes.
+Even triple quotes can be used in Python but generally used to represent multiline strings and docstrings.

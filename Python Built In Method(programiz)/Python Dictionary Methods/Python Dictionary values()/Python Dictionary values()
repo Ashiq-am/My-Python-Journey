@@ -1,0 +1,20 @@
+The values() method returns a view object that displays a list of all the values in the dictionary.
+
+The syntax of values() is:
+
+dictionary.values()
+
+
+
+
+
+values() Parameters
+The values() method doesn't take any parameters.
+
+
+
+
+
+
+Return value from values()
+The values() method returns a view object that displays a list of all values in a given dictionary.

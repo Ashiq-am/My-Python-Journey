@@ -1,0 +1,22 @@
+import datetime
+
+d = datetime.date(2019, 4, 13)
+print(d)
+
+When you run the program, the output will be:
+
+2019-04-13
+
+If you are wondering, date() in the above example is a constructor of the date class.
+The constructor takes three arguments: year, month and day.
+
+The variable a is a date object.
+
+
+We can only import date class from the datetime module. Here's how:
+
+
+from datetime import date
+
+a = date(2019, 4, 13)
+print(a)

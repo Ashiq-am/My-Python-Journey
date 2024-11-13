@@ -1,0 +1,7 @@
+Sets are mutable. But since they are unordered, indexing have no meaning.
+
+We cannot access or change an element of set using indexing or slicing. Set does not support it.
+
+We can add single element using the add() method and multiple elements using the update() method.
+The update() method can take tuples, lists, strings or other sets as its argument. In all cases, duplicates are avoided.
+

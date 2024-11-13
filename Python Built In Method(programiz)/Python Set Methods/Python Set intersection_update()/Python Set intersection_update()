@@ -1,0 +1,48 @@
+The intersection_update() updates the set calling intersection_update() method with the intersection of sets.
+
+The intersection of two or more sets is the set of elements which are common to all sets.
+
+
+
+The syntax of intersection_update() is:
+
+A.intersection_update(*other_sets)
+
+
+
+
+
+
+
+intersection_update() Parameters
+The intersection_update() allows arbitrary number of arguments (sets).
+
+Note: * is not part of the syntax. It is used to indicate that the method allows arbitrary number of arguments.
+
+
+
+
+
+
+
+
+
+
+Return Value from Intersection_update()
+
+This method returns None (meaning, absence of a return value).
+It only updates the set calling the intersection_update() method.
+
+Suppose,
+
+result = A.intersection_update(B, C)
+
+When you run the code,
+
+result will be None
+
+A will be equal to the intersection of A, B and C
+
+B remains unchanged
+
+Cremains unchanged

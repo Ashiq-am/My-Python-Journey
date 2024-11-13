@@ -1,0 +1,30 @@
+The isidentifier() method returns True if the string is a valid identifier in Python. If not, it returns False.
+
+The syntax of isidentifier() is:
+
+string.isidentifier()
+
+
+
+
+
+
+
+
+
+
+isidentifier() Paramters
+The isidentifier() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+Return Value from isidentifier()
+The isidentifier() method returns:
+
+True if the string is a valid identifier
+False if the string is not a invalid identifier

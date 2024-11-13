@@ -1,0 +1,24 @@
+The count() method returns the number of occurrences of an element in a tuple.
+In simple terms, count() method searches the given element in a tuple and returns how many times the element has occurred in it.
+
+The syntax of count() method is:
+
+tuple.count(element)
+
+
+
+
+
+count() Parameters:-
+The count() method takes a single parameter:
+
+element - element whose count is to be found
+
+
+
+
+
+
+Return value from count():-
+
+count() method returns the number of occurrences of a given element in the tuple.

@@ -1,0 +1,42 @@
+The remove() method searches for the given element in the set and removes it.
+
+The syntax of remove() method is:
+
+set.remove(element)
+
+
+
+
+
+
+
+
+
+remove() Parameters
+The remove() method takes a single element as an argument and removes it from the set.
+
+If the element(argument) passed to the remove() method doesn't exist, keyError exception is thrown.
+
+
+
+
+
+
+Return Value from remove()
+The remove() method only removes the given element from the set. It doesn't return any value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

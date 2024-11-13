@@ -1,0 +1,26 @@
+from datetime import datetime
+
+date_string = "21 June, 2018"
+print("date_string =", date_string)
+
+date_object = datetime.strptime(date_string, "%d %B, %Y")
+print("date_object =", date_object)
+
+
+
+
+When you run the program, the output will be:
+
+
+date_string = 21 June, 2018
+date_object = 2018-06-21 00:00:00
+
+
+
+The strptime() method takes two arguments:
+
+a string representing date and time
+format code equivalent to the first argument
+
+
+By the way, %d, %B and %Y format codes are used for day, month(full name) and year respectively.

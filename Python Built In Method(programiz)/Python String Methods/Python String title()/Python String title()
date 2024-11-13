@@ -1,0 +1,26 @@
+The title() method returns a string with first letter of each word capitalized; a title cased string.
+
+The syntax of title() is:
+
+str.title()
+
+
+
+
+
+
+
+title() Parameters
+The title() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+Return Value from title()
+
+The title() method returns a title cased version of the string.
+Meaning, the first character of the each word is capitalized (if the first character is a letter).

@@ -1,0 +1,50 @@
+The isnumeric() method returns True if all characters in a string are numeric characters. If not, it returns False.
+
+A numeric character has following properties:
+
+Numeric_Type=Decimal
+Numeric_Type=Digit
+Numeric_Type=Numeric
+
+In Python, decimal characters (like: 0, 1, 2..), digits (like: subscript, superscript),
+and characters having Unicode numeric value property (like: fraction, roman numerals, currency numerators)
+are all considered numeric characters.
+
+You can write the digit and numeric characters using unicode in the program. For example:
+
+# s = '½'
+s = '\u00BD'
+
+
+
+
+The syntax of isnumeric() is
+
+string.isnumeric()
+
+
+
+
+
+
+
+
+
+
+isnumeric() Parameters
+
+The isnumeric() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+Return Value from isnumeric()
+The isnumeric() method returns:
+
+True if all characters in the string are numeric characters.
+
+False if at least one character is not a numeric character.

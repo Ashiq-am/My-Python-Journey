@@ -1,0 +1,40 @@
+The rindex() method returns the highest index of the substring inside the string (if found).
+If the substring is not found, it raises an exception.
+
+The syntax of rindex() is:
+
+str.rindex(sub[, start[, end]] )
+
+
+
+
+
+
+
+
+
+rindex() Parameters
+The rindex() method takes three parameters:
+
+sub - substring to be searched in the str string.
+
+start and end(optional) - substring is searched within str[start:end]
+
+
+
+
+
+
+
+
+
+
+Return Value from rindex()
+
+If substring exists inside the string, it returns the highest index in the string where substring is found.
+
+If substring doesn't exist inside the string, it raises a ValueError exception.
+
+The rindex() method is similar to rfind() method for strings.
+
+The only difference is that rfind() returns -1 if the substring is not found, whereas rindex() throws an exception.

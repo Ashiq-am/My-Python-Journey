@@ -1,0 +1,48 @@
+The format_map() method is similar to str.format(**mapping) except that str.format(**mapping) creates a
+new dictionary whereas str.format_map(mapping) doesn't.
+
+Before talking about format_map(). Let's see how str.format(**mapping) works for Python Dictionaries.
+
+
+point = {'x':4,'y':-5}
+print('{x} {y}'.format(**point))
+
+
+
+
+
+
+
+
+The format_map(mapping) is similar to str.format(**mapping) method.
+
+The only difference is that, the str.format(**mapping) copies the dict whereas str.format_map(mapping) makes a new dictionary during method call.
+This can be useful if you are working with a dict subclass.
+
+The syntax of the format_map() is
+
+str.format_map(mapping)
+
+
+
+
+
+
+
+
+
+
+format_map Parameter
+
+The format_map() takes a single argument mapping(dictionary).
+
+
+
+
+
+
+
+
+
+Return Value from format_map()
+The format_map() formats the given string and returns it.

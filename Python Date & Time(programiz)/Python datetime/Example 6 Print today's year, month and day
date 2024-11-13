@@ -1,0 +1,16 @@
+We can get year, month, day, day of the week etc. from the date object easily. Here's how:
+
+
+from datetime import date
+
+# date object of today's date
+today = date.today()
+
+print("Current year:", today.year)
+print("Current month:", today.month)
+print("Current day:", today.day)
+
+
+
+datetime.time
+A time object instantiated from the time class represents the local time.

@@ -1,0 +1,26 @@
+The Python set update() method updates the set, adding items from other iterables.
+
+The syntax of update() is:
+
+A.update(iterable)
+
+
+Here, A is a set, and iterable can be any iterable such as list, set, dictionary, string, etc.
+The elements of the iterable are added to the set A.
+
+Let's take another example:
+
+A.update(iter1, iter2, iter3)
+Here, the elements of iterables iter1, iter2, and iter3 are added to set A.
+
+
+
+
+
+
+
+
+
+Return Value from update()
+
+This set update() method returns None (returns nothing).

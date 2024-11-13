@@ -1,0 +1,4 @@
+The way date and time is represented may be different in different places, organizations etc.
+It's more common to use mm/dd/yyyy in the US, whereas dd/mm/yyyy is more common in the UK.
+
+Python has strftime() and strptime() methods to handle this.

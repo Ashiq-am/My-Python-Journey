@@ -1,0 +1,34 @@
+We can use dir() function to get a list containing all attributes of a module.
+
+
+
+import datetime
+
+print(dir(datetime))
+
+
+When you run the program, the output will be:
+
+
+['MAXYEAR', 'MINYEAR', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__',
+'__name__', '__package__', '__spec__', '_divide_and_round', 'date', 'datetime', 'datetime_CAPI',
+'time', 'timedelta', 'timezone', 'tzinfo']
+
+
+
+
+
+
+Commonly used classes in the datetime module are:
+
+1.date Class
+2.time Class
+3.datetime Class
+4.timedelta Class
+
+
+
+
+
+datetime.date Class
+You can instantiate date objects from the date class. A date object represents a date (year, month and day).

@@ -1,0 +1,2 @@
+The strftime() method is defined under classes date, datetime and time.
+The method creates a formatted string from a given date, datetime or time object.

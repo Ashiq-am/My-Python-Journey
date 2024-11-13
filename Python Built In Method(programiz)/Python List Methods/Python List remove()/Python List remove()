@@ -1,0 +1,21 @@
+The remove() method removes the first matching element (which is passed as an argument) from the list.
+
+The syntax of the remove() method is:
+
+list.remove(element)
+
+
+
+
+
+remove() Parameters
+The remove() method takes a single element as an argument and removes it from the list.
+
+If the element doesn't exist, it throws ValueError: list.remove(x): x not in list exception.
+
+
+
+
+
+Return Value from remove()
+The remove() doesn't return any value (returns None).

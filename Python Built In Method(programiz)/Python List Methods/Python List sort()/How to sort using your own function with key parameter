@@ -1,0 +1,16 @@
+If you want your own implementation for sorting, sort() also accepts a key function as an optional parameter.
+
+Based on the results of the key function, you can sort the given list.
+
+list.sort(key=len)
+
+
+Alternatively for sorted
+
+sorted(list, key=len)
+
+
+
+Here, len is the Python's in-built function to count the length of an element.
+
+The list is sorted based on the length of its each element, from lowest count to highest.

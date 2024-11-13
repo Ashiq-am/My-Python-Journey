@@ -1,0 +1,43 @@
+The string count() method returns the number of occurrences of a substring in the given string.
+
+In simple words, count() method searches the substring in the given string and returns
+how many times the substring is present in it.
+
+It also takes optional parameters start and end to specify the starting and ending positions in the string respectively.
+
+The syntax of count() method is:
+
+string.count(substring, start=..., end=...)
+
+
+
+
+
+
+
+
+
+
+
+String count() Parameters
+
+count() method only requires a single parameter for execution. However, it also has two optional parameters:
+
+substring - string whose count is to be found.
+
+start (Optional) - starting index within the string where search starts.
+
+end (Optional) - ending index within the string where search ends.
+
+Note: Index in Python starts from 0, not 1.
+
+
+
+
+
+
+
+Return value from String count()
+
+count() method returns the number of occurrences of the substring in the given string.
+

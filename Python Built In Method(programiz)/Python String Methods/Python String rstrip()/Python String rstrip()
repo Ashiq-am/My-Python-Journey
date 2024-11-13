@@ -1,0 +1,44 @@
+The rstrip() method returns a copy of the string with trailing characters removed (based on the string argument passed).
+
+The rstrip() removes characters from the right based on the argument (a string specifying the set of characters to be removed).
+
+The syntax of rstrip() is:
+
+string.rstrip([chars])
+
+
+
+
+
+
+
+
+
+rstrip() Parameters
+
+chars (optional) - a string specifying the set of characters to be removed.
+
+If the chars argument is not provided, all whitspaces on the right are removed from the string.
+
+
+
+
+
+
+
+
+Return Value from rstrip()
+
+The rstrip() returns a copy of the string with trailing characters stripped.
+
+All combinations of characters in the chars argument are removed from the right of the string until first mismatch.
+
+
+
+
+
+
+
+
+
+

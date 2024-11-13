@@ -1,0 +1,9 @@
+The Python symmetric_difference() method returns the symmetric difference of two sets.
+
+The symmetric difference of two sets A and B is the set of elements that are in either A or B, but not in their intersection.
+
+
+
+The syntax of symmetric_difference() is:
+
+A.symmetric_difference(B)

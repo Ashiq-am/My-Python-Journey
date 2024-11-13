@@ -1,0 +1,124 @@
+The string format() method formats the given string into a nicer output in Python.
+
+The syntax of format() method is:
+
+template.format(p0, p1, ..., k0=v0, k1=v1, ...)
+Here, p0, p1,... are positional arguments and, k0, k1,... are keyword arguments with values v0, v1,... respectively.
+
+And, template is a mixture of format codes with placeholders for the arguments.
+
+
+
+
+
+
+
+
+
+
+String format() Parameters
+format() method takes any number of parameters. But, is divided into two types of parameters:
+
+Positional parameters - list of parameters that can be accessed with index of parameter inside curly braces {index}
+
+Keyword parameters - list of parameters of type key=value, that can be accessed with key of parameter inside curly braces {key}
+
+
+
+
+
+
+
+
+Return value from String format()
+The format() method returns the formatted string.
+
+
+
+
+
+
+
+
+How String format() works?
+The format() reads the type of arguments passed to it and formats it according to the format codes defined in the string.
+
+
+
+
+
+
+
+
+
+
+For positional arguments
+
+How string format works for positional parameters in Python?
+
+Here, Argument 0 is a string "Adam" and Argument 1 is a floating number 230.2346.
+
+
+
+Note: Argument list starts from 0 in Python.
+
+The string "Hello {0}, your balance is {1:9.3f}" is the template string. This contains the format codes for formatting.
+
+The curly braces are just placeholders for the arguments to be placed.
+
+In the above example, {0} is placeholder for "Adam" and {1:9.3f} is placeholder for 230.2346.
+
+Since the template string references format() arguments as {0} and {1}, the arguments are positional arguments.
+They both can also be referenced without the numbers as {} and Python internally converts them to numbers.
+
+Internally,
+
+Since "Adam" is the 0th argument, it is placed in place of {0}. Since, {0} doesn't contain any other format codes,
+it doesn't perform any other operations.
+
+However, it is not the case for 1st argument 230.2346. Here, {1:9.3f} places 230.2346 in its place and performs the operation 9.3f.
+f specifies the format is dealing with a float number. If not correctly specified, it will give out an error.
+The part before the "." (9) specifies the minimum width/padding the number (230.2346) can take.
+In this case, 230.2346 is allotted a minimum of 9 places including the ".".
+If no alignment option is specified, it is aligned to the right of the remaining spaces.
+(For strings, it is aligned to the left.)
+The part after the "." (3) truncates the decimal part (2346) upto the given number.
+In this case, 2346 is truncated after 3 places.
+Remaining numbers (46) is rounded off outputting 235.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For keyword arguments
+How string format works for keyword parameters in Python?
+
+We've used the same example from above to show the difference between keyword and positional arguments.
+
+Here, instead of just the parameters, we've used a key-value for the parameters. Namely, name="Adam" and blc=230.2346.
+
+Since, these parameters are referenced by their keys as {name} and {blc:9.3f}, they are known as keyword or named arguments.
+
+Internally,
+
+The placeholder {name} is replaced by the value of name - "Adam". Since,
+it doesn't contain any other format codes, "Adam" is placed.
+For the argument blc=230.2346, the placeholder {blc:9.3f} is replaced by the value 230.2346.
+But before replacing it, like previous example, it performs 9.3f operation on it.
+This outputs   230.235. The decimal part is truncated after 3 places and remaining digits are rounded off.
+Likewise, the total width is assigned 9 leaving two spaces to the left.
+

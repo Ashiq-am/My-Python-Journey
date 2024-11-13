@@ -1,0 +1,38 @@
+The program below converts a datetime object containing current date and time to different string formats.
+
+
+from datetime import datetime
+
+now = datetime.now() # current date and time
+
+year = now.strftime("%Y")
+print("year:", year)
+
+month = now.strftime("%m")
+print("month:", month)
+
+day = now.strftime("%d")
+print("day:", day)
+
+time = now.strftime("%H:%M:%S")
+print("time:", time)
+
+date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
+print("date and time:",date_time)
+
+
+
+
+
+When you run the program, the output will something like be:
+
+
+year: 2018
+month: 12
+day: 24
+time: 04:59:31
+date and time: 12/24/2018, 04:59:31
+
+
+
+Here, year, day, time and date_time are strings, whereas now is a datetime object.

@@ -1,0 +1,6 @@
+Before talking about sleep() in multithreaded programs, let's talk about processes and threads.
+
+
+A computer program is a collection of instructions. A process is the execution of those instructions.
+
+A thread is a subset of the process. A process can have one or more threads.

@@ -1,0 +1,20 @@
+The gmtime() function takes the number of seconds passed since epoch as an argument and returns struct_time in UTC.
+
+import time
+
+result = time.gmtime(1545925769)
+print("result:", result)
+print("\nyear:", result.tm_year)
+print("tm_hour:", result.tm_hour)
+
+
+
+When you run the program, the output will be:
+
+result = time.struct_time(tm_year=2018, tm_mon=12, tm_mday=28, tm_hour=8, tm_min=44, tm_sec=4, tm_wday=4, tm_yday=362, tm_isdst=0)
+
+year = 2018
+tm_hour = 8
+
+
+If no argument or None is passed to gmtime(), the value returned by time() is used.

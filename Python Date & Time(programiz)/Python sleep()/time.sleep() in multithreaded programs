@@ -1,0 +1,4 @@
+The sleep() function suspends execution of the current thread for a given number of seconds.
+
+In case of single-threaded programs, sleep() suspends execution of the thread and process.
+However, the function suspends a thread rather than the whole process in multithreaded programs.

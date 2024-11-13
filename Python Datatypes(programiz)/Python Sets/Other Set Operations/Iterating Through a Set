@@ -1,0 +1,9 @@
+Using a for loop, we can iterate though each item in a set.
+
+>>> for letter in set("apple"):
+...     print(letter)
+...
+a
+p
+e
+l

@@ -1,0 +1,12 @@
+The clear() method removes all elements from the set.
+
+The syntax of clear() method is:
+
+set.clear()
+
+
+
+
+
+Set clear() Parameters
+The clear() method doesn't take any parameters.

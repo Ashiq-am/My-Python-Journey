@@ -1,0 +1,27 @@
+The strftime() function takes struct_time (or tuple corresponding to it) as an argument and returns a string representing it based on the format code used. For example,
+
+import time
+
+named_tuple = time.localtime() # get struct_time
+time_string = time.strftime("%m/%d/%Y, %H:%M:%S", named_tuple)
+
+print(time_string)
+
+
+
+
+When you run the program, the output will be something like:
+
+12/28/2018, 09:47:41
+
+
+
+
+Here, %Y, %m, %d, %H etc. are format codes.
+
+%Y - year [0001,..., 2018, 2019,..., 9999]
+%m - month [01, 02, ..., 11, 12]
+%d - day [01, 02, ..., 30, 31]
+%H - hour [00, 01, ..., 22, 23
+%M - month [00, 01, ..., 58, 59]
+%S - second [00, 01, ..., 58, 61]

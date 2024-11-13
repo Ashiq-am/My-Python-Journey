@@ -1,0 +1,35 @@
+The index() method returns the index of a substring inside the string (if found). If the substring is not found,
+it raises an exception.
+
+
+The syntax of index() method for string is:
+
+str.index(sub[, start[, end]] )
+
+
+
+
+
+
+
+index() Parameters
+The index() method takes three parameters:
+
+sub - substring to be searched in the string str.
+
+start and end(optional) - substring is searched within str[start:end]
+
+
+
+
+
+
+Return Value from index()
+
+If substring exists inside the string, it returns the lowest index in the string where substring is found.
+If substring doesn't exist inside the string, it raises a ValueError exception.
+The index() method is similar to find() method for strings.
+
+The only difference is that find() method returns -1 if the substring is not found, whereas index() throws
+an exception.
+

@@ -1,0 +1,17 @@
+If the string (first argument) and the format code (second argument) passed to the strptime() doesn't match,
+you will get ValueError. For example:
+
+
+from datetime import datetime
+
+date_string = "12/11/2018"
+date_object = datetime.strptime(date_string, "%d %m %Y")
+
+print("date_object =", date_object)
+
+
+
+
+If you run this program, you will get an error.
+
+ValueError: time data '12/11/2018' does not match format '%d %m %Y'

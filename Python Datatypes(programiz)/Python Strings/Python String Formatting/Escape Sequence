@@ -1,0 +1,73 @@
+If we want to print a text like -He said, "What's there?"- we can neither use single quote or double quotes.
+This will result into SyntaxError as the text itself contains both single and double quotes.
+
+
+
+>>> print("He said, "What's there?"")
+...
+SyntaxError: invalid syntax
+>>> print('He said, "What's there?"')
+...
+SyntaxError: invalid syntax
+One way to get around this problem is to use triple quotes. Alternatively, we can use escape sequences.
+
+
+
+An escape sequence starts with a backslash and is interpreted differently. If we use single quote to represent a string,
+all the single quotes inside the string must be escaped. Similar is the case with double quotes.
+Here is how it can be done to represent the above text.
+
+
+
+
+
+
+                                                         Escape Sequence in Python
+
+Escape Sequence	                                                                                Description
+\ newline                                                                                 Backslash and newline ignored
+
+\\	                                                                                             Backslash
+
+\'	                                                                                            Single quote
+
+\"	                                                                                            Double quote
+
+\a	                                                                                             ASCII Bell
+
+\b	                                                                                           ASCII Backspace
+
+\f	                                                                                           ASCII Formfeed
+
+\n	                                                                                           ASCII Linefeed
+
+\r	                                                                                       ASCII Carriage Return
+
+\t	                                                                                        ASCII Horizontal Tab
+
+\v	                                                                                         ASCII Vertical Tab
+
+\ooo	                                                                                 Character with octal value ooo
+
+\xHH	                                                                               Character with hexadecimal value HH
+
+
+
+
+
+
+
+
+
+
+Here are some examples
+
+>>> print("C:\\Python32\\Lib")
+C:\Python32\Lib
+
+>>> print("This is printed\nin two lines")
+This is printed
+in two lines
+
+>>> print("This is \x48\x45\x58 representation")
+This is HEX representation

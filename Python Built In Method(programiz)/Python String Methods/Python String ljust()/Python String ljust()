@@ -1,0 +1,47 @@
+The string ljust() method returns a left-justified string of a given minimum width.
+
+The syntax of ljust() method is:
+
+string.ljust(width[, fillchar])
+
+
+
+Here, fillchar is an optional parameter.
+
+
+
+
+
+
+
+
+String ljust() Parameters
+
+The ljust() method takes two parameters:
+
+width - width of the given string. If width is less than or equal to the length of the string, original string is returned.
+
+fillchar (Optional) - character to fill the remaining space of the width
+
+
+
+
+
+
+
+
+
+
+Return value from String ljust()
+The ljust() method returns the left-justified string within the given minimum width.
+
+If fillchar is defined, it also fills the remaining space with the defined character.
+
+
+
+
+
+
+
+
+

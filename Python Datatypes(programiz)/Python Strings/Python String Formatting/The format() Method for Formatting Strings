@@ -1,0 +1,31 @@
+The format() method that is available with the string object is very versatile and powerful in formatting strings.
+Format strings contains curly braces {} as placeholders or replacement fields which gets replaced.
+
+We can use positional arguments or keyword arguments to specify the order.
+
+
+
+The format() method can have optional format specifications. They are separated from field name using colon. For example,
+we can left-justify <, right-justify > or center ^ a string in the given space. We can also format integers as binary, hexadecimal etc.
+and floats can be rounded or displayed in the exponent format.
+There are a ton of formatting you can use. Visit here for all the string formatting available with the format() method.
+
+
+
+
+
+>>> # formatting integers
+>>> "Binary representation of {0} is {0:b}".format(12)
+'Binary representation of 12 is 1100'
+
+>>> # formatting floats
+>>> "Exponent representation: {0:e}".format(1566.345)
+'Exponent representation: 1.566345e+03'
+
+>>> # round off
+>>> "One third is: {0:.3f}".format(1/3)
+'One third is: 0.333'
+
+>>> # string alignment
+>>> "|{:<10}|{:^10}|{:>10}|".format('butter','bread','ham')
+'|butter    |  bread   |       ham|'

@@ -1,0 +1,37 @@
+The join() is a string method which returns a string concatenated with the elements of an iterable.
+
+The join() method provides a flexible way to concatenate string. It concatenates each element of an iterable (such as list,
+string and tuple) to the string and returns the concatenated string.
+
+The syntax of join() is:
+
+string.join(iterable)
+
+
+
+
+
+
+
+
+join() Parameters
+The join() method takes an iterable - objects capable of returning its members one at a time
+
+Some of the example of iterables are:
+
+Native datatypes - List, Tuple, String, Dictionary and Set
+
+File objects and objects you define with an __iter__() or __getitem()__ method
+
+
+
+
+
+
+
+
+
+Return Value from join()
+The join() method returns a string concatenated with the elements of an iterable.
+
+If the iterable contains any non-string values, it raises a TypeError exception.

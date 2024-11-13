@@ -1,0 +1,30 @@
+The pop() method removes and returns an element from a dictionary having the given key.
+
+The syntax of pop() method is
+
+dictionary.pop(key[, default])
+
+
+
+
+
+pop() Parameters
+
+The pop() method takes two parameters:
+
+key - key which is to be searched for removal
+
+default - value which is to be returned when the key is not in the dictionary
+
+
+
+
+Return value from pop()
+
+The pop() method returns:
+
+If key is found - removed/popped element from the dictionary
+
+If key is not found - value specified as the second argument (default)
+
+If key is not found and default argument is not specified - KeyError exception is raised

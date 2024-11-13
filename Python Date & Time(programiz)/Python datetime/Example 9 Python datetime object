@@ -1,0 +1,22 @@
+
+from datetime import datetime
+
+#datetime(year, month, day)
+a = datetime(2018, 11, 28)
+print(a)
+
+# datetime(year, month, day, hour, minute, second, microsecond)
+b = datetime(2017, 11, 28, 23, 55, 59, 342380)
+print(b)
+
+
+
+When you run the program, the output will be:
+
+
+2018-11-28 00:00:00
+2017-11-28 23:55:59.342380
+
+
+
+The first three arguments year, month and day in the datetime() constructor are mandatory.

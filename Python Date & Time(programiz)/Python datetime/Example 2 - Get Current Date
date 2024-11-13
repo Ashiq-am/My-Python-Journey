@@ -1,0 +1,13 @@
+import datetime
+
+date_object = datetime.date.today()
+print(date_object)
+
+
+When you run the program, the output will be something like:
+
+2018-12-19
+
+
+
+In this program, we have used today() method defined in the date class to get a date object containing the current local date.

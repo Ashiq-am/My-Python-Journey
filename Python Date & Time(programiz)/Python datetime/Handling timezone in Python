@@ -1,0 +1,30 @@
+Suppose, you are working on a project and need to display date and time based on their timezone.
+Rather than trying to handle timezone yourself, we suggest you to use a third-party pytZ module.
+
+
+from datetime import datetime
+import pytz
+
+local = datetime.now()
+print("Local:", local.strftime("%m/%d/%Y, %H:%M:%S"))
+
+
+tz_NY = pytz.timezone('America/New_York')
+datetime_NY = datetime.now(tz_NY)
+print("NY:", datetime_NY.strftime("%m/%d/%Y, %H:%M:%S"))
+
+tz_London = pytz.timezone('Europe/London')
+datetime_London = datetime.now(tz_London)
+print("London:", datetime_London.strftime("%m/%d/%Y, %H:%M:%S"))
+
+
+When you run the program, the output will be something like:
+
+
+Local time: 2018-12-20 13:10:44.260462
+America/New_York time: 2018-12-20 13:10:44.260462
+Europe/London time: 2018-12-20 13:10:44.260462
+
+
+
+Here, datetime_NY and datetime_London are datetime objects containing the current date and time of their respective timezone.

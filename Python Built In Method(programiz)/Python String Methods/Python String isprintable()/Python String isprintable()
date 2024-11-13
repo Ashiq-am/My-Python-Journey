@@ -1,0 +1,40 @@
+The isprintable() methods returns True if all characters in the string are printable or the string is empty.
+If not, it returns False.
+
+Characters that occupies printing space on the screen are known as printable characters. For example:
+
+letters and symbols
+digits
+punctuation
+whitespace
+
+
+The syntax of isprintable() is:
+
+string.isprintable()
+
+
+
+
+
+
+
+isprintable() Parameters
+
+The isprintable() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+
+Return Value from isprintable()
+
+The isprintable() method returns:
+
+True if the string is empty or all characters in the string are printable
+
+False if the string contains at least one non-printable() character

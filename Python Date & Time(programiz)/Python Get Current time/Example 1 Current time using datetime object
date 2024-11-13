@@ -1,0 +1,25 @@
+from datetime import datetime
+
+now = datetime.now()
+
+current_time = now.strftime("%H:%M:%S")
+print("Current Time =", current_time)
+
+
+
+In the above example, we have imported datetime class from the datetime module.
+Then, we used now() method to get a datetime object containing current date and time.
+
+Using datetime.strftime() method, we then created a string representing current time.
+
+
+
+If you need to create a time object containing current time, you can do something like this.
+
+
+from datetime import datetime
+
+now = datetime.now().time() # time object
+
+print("now =", now)
+print("type(now) =", type(now))

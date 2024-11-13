@@ -1,0 +1,35 @@
+The pop() method removes the item at the given index from the list and returns the removed item.
+
+The syntax of the pop() method is:
+
+list.pop(index)
+
+
+
+
+
+
+
+pop() parameters
+
+The pop() method takes a single argument (index).
+
+The argument passed to the method is optional. If not passed, the default index -1 is passed as an argument
+(index of the last item).
+
+If the index passed to the method is not in range, it throws IndexError: pop index out of range exception.
+
+
+
+
+
+
+
+
+
+
+
+Return Value from pop()
+The pop() method returns the item present at the given index. This item is also removed from the list.
+
+

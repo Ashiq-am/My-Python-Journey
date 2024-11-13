@@ -1,0 +1,55 @@
+The startswith() method returns True if a string starts with the specified prefix(string). If not, it returns False.
+
+The syntax of startswith() is:
+
+str.startswith(prefix[, start[, end]])
+
+
+
+
+
+
+
+
+
+
+startswith() Parameters
+The startswith() method takes maximum of three parameters:
+
+prefix - String or tuple of strings to be checked
+
+start (optional) - Beginning position where prefix is to be checked within the string.
+
+end (optional) - Ending position where prefix is to be checked within the string.
+
+
+
+
+
+
+
+
+
+Return Value from startswith()
+The startswith() method returns a boolean.
+
+It returns True if the string starts with the specified prefix.
+
+It returns False if the string doesn't start with the specified prefix.
+
+
+
+
+
+
+
+
+
+
+
+
+Passing Tuple to startswith()
+
+It's possible to pass a tuple of prefixes to the startswith() method in Python.
+
+If the string starts with any item of the tuple, startswith() returns True. If not, it returns False

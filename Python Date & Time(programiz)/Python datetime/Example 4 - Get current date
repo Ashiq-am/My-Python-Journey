@@ -1,0 +1,8 @@
+You can create a date object containing the current date by using a classmethod named today(). Here's how:
+
+
+from datetime import date
+
+today = date.today()
+
+print("Current date =", today)

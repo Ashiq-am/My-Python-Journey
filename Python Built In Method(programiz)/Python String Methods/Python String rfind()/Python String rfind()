@@ -1,0 +1,30 @@
+The rfind() method returns the highest index of the substring (if found). If not found, it returns -1.
+
+The syntax of rfind() is:
+
+str.rfind(sub[, start[, end]] )
+
+
+
+
+
+
+
+
+rfind() Parameters
+The rfind() method takes maximum of three parameters:
+
+sub - It's the substring to be searched in the str string.
+start and end (optional) - substring is searched within str[start:end]
+
+
+
+
+
+
+
+Return Value from rfind()
+The rfind() method returns an integer value.
+
+If substring exists inside the string, it returns the highest index where substring is found.
+If substring doesn't exist inside the string, it returns -1.

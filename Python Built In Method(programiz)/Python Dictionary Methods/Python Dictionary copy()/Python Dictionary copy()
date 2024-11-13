@@ -1,0 +1,21 @@
+They copy() method returns a shallow copy of the dictionary.
+
+The syntax of copy() is:
+
+dict.copy()
+
+
+
+
+copy() Parameters
+The copy() method doesn't take any parameters.
+
+
+
+
+
+
+
+Return Value from copy()
+This method returns a shallow copy of the dictionary. It doesn't modify the original dictionary.
+

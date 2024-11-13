@@ -1,0 +1,50 @@
+The sort() method sorts the elements of a given list.
+
+The sort() method sorts the elements of a given list in a specific order - Ascending or Descending.
+
+The syntax of sort() method is:
+
+list.sort(key=..., reverse=...)
+
+
+Alternatively, you can also use Python's in-built function sorted() for the same purpose.
+
+sorted(list, key=..., reverse=...)
+
+
+
+Note: Simplest difference between sort() and sorted() is: sort() doesn't return any value while, sorted()
+returns an iterable list.
+
+
+
+
+
+
+
+
+
+
+sort() Parameters
+
+By default, sort() doesn't require any extra parameters. However, it has two optional parameters:
+
+reverse - If true, the sorted list is reversed (or sorted in Descending order)
+
+key - function that serves as a key for the sort comparison
+
+
+
+
+
+
+
+
+
+
+Return value from sort()
+
+sort() method doesn't return any value. Rather, it changes the original list.
+
+If you want the original list, use sorted().
+

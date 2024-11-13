@@ -1,0 +1,9 @@
+Methods that add items or remove items are not available with tuple. Only the following two methods are available.
+
+
+                                                   Python Tuple Method
+
+
+Method	                                                           Description
+count(x)	                                             Returns the number of items x
+index(x)	                                   Returns the index of the first item that is equal to x

@@ -1,0 +1,44 @@
+The set add() method adds a given element to a set. If the element is already present, it doesn't add any element.
+
+The syntax of set add() method is:
+
+set.add(elem)
+
+
+The add() method doesn't add an element to the set if it's already present in it.
+
+
+Also, you don't get back a set if you use add() method when creating a set object.
+
+noneValue = set().add(elem)
+
+
+The above statement doesn't return a reference to the set but 'None',
+because the statement returns the return type of add which is 'None',
+
+
+
+
+
+
+
+
+
+Set add() Parameters
+
+The add(0 method takes a single parameter:
+
+elem - the element that is added to the set
+
+
+
+
+
+
+
+
+
+Return Value from Set add()
+
+The add() method doesn't return any value and returns a 'None'.
+

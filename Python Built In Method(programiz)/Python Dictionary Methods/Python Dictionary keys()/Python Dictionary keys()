@@ -1,0 +1,26 @@
+The keys() method returns a view object that displays a list of all the keys in the dictionary
+
+The syntax of keys() is:
+
+dict.keys()
+
+
+
+
+
+
+
+
+keys() Parameters
+The keys() doesn't take any parameters.
+
+
+
+
+
+
+
+Return Value from keys()
+The keys() returns a view object that displays a list of all the keys.
+
+When the dictionary is changed, the view object also reflect these changes.

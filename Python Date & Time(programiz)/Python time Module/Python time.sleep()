@@ -1,0 +1,13 @@
+The sleep() function suspends (delays) execution of the current thread for the given number of seconds.
+
+import time
+
+print("This is printed immediately.")
+time.sleep(2.4)
+print("This is printed after 2.4 seconds.")
+
+
+
+
+
+Before we talk about other time-related functions, let's explore time.struct_time class in brief.

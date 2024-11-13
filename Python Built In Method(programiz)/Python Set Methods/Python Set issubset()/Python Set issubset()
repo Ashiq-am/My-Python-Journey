@@ -1,0 +1,24 @@
+The issubset() method returns True if all elements of a set are present in another set (passed as an argument).
+If not, it returns False.
+
+Set A is said to be the subset of set B if all elements of A are in B.
+
+Here, set A is a subset of B.
+
+
+The syntax of issubset() is:
+
+A.issubset(B)
+
+
+
+
+
+
+
+Return Value from issubset()
+The issubset() returns
+
+True if A is a subset of B
+
+False if A is not a subset of B

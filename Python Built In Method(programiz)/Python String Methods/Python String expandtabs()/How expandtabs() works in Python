@@ -1,0 +1,11 @@
+The expandtabs() method keeps track of the current cursor position.
+
+
+The position of first '\t' character in the above program is 3. And, the tabsize is 8 (if argument is not passed).
+
+The expandtabs() character replaces the '\t' with whitespace until the next tab stop.
+The position of '\t' is 3 and the first tab stop is 8. Hence, the number of spaces after 'xyz' is 5.
+
+The next tab stops are the multiples of tabsize. The next tab stops are 16, 24, 32 and so on.
+
+Now, the position of second '\t' character is 13. And, the next tab stop is 16. Hence, there are 3 spaces after '12345'.

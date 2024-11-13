@@ -1,0 +1,6 @@
+You can generate random numbers in Python by using random module.Python offers random module that can generate random numbers.
+
+These are pseudo-random number as the sequence of number generated depends on the seed.
+
+If the seeding value is same, the sequence will be the same. For example, if you use 2 as the seeding value,
+you will always see the following sequence.

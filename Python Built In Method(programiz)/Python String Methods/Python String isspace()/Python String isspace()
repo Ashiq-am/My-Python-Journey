@@ -1,0 +1,31 @@
+The isspace() method returns True if there are only whitespace characters in the string. If not, it return False.
+
+Characters that are used for spacing are called whitespace characters. For example: tabs, spaces, newline etc.
+
+The syntax of isspace() is:
+
+string.isspace()
+
+
+
+
+
+
+
+isspace() Parameters
+The isspace() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+Return Value from isspace()
+
+The isspace() method returns:
+
+True if all characters in the string are whitespace characters
+
+False if the string is empty or contains at least one non-printable() character

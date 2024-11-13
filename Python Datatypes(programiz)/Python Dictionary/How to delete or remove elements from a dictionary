@@ -1,0 +1,8 @@
+We can remove a particular item in a dictionary by using the method pop().
+This method removes as item with the provided key and returns the value.
+
+The method, popitem() can be used to remove and return an arbitrary item (key, value) form the dictionary.
+All the items can be removed at once using the clear() method.
+
+We can also use the del keyword to remove individual items or the entire dictionary itself.
+

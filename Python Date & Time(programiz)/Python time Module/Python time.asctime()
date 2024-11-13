@@ -1,0 +1,12 @@
+The asctime() function takes struct_time (or a tuple containing 9 elements corresponding to struct_time) as an
+argument and returns a string representing it. Here's an example:
+
+import time
+
+t = (2018, 12, 28, 8, 44, 4, 4, 362, 0)
+
+result = time.asctime(t)
+print("Result:", result)
+When you run the program, the output will be:
+
+Result: Fri Dec 28 08:44:04 2018

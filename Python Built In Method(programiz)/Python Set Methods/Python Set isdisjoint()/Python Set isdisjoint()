@@ -1,0 +1,48 @@
+The isdisjoint() method returns True if two sets are disjoint sets. If not, it returns False.
+
+Two sets are said to be disjoint sets if they have no common elements. For example:
+
+A = {1, 5, 9, 0}
+B = {2, 4, -5}
+Here, sets A and B are disjoint sets.
+
+
+
+The syntax of isdisjoint() is:
+
+set_a.isdisjoint(set_b)
+
+
+
+
+
+
+
+
+
+isdisjoint() Parameters
+
+The isdisjoint() method takes a single argument (a set).
+
+
+You can also pass an iterable (list, tuple, dictionary and string) to disjoint().
+The isdisjoint() method will automatically convert iterables to set and checks whether the sets are disjoint or not.
+
+
+
+
+
+
+
+
+
+
+
+Return Value from isdisjoint()
+The isdisjoint() method returns
+
+True if two sets are disjoint sets (if set_a and set_b are disjoint sets in above syntax)
+
+False if two sets are not disjoint sets
+
+

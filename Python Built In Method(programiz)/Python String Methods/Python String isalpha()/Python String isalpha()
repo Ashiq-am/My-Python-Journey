@@ -1,0 +1,32 @@
+The isalpha() method returns True if all characters in the string are alphabets. If not, it returns False.
+
+The syntax of isalpha() is:
+
+string.isalpha()
+
+
+
+
+
+
+
+
+
+
+
+isalpha() Parameters
+The isalpha() doesn't take any parameters.
+
+
+
+
+
+
+
+
+
+Return Value from isalpha()
+The isalpha() returns:
+
+True if all characters in the string are alphabets (can be both lowercase and uppercase).
+False if at least one character is not alphabet.

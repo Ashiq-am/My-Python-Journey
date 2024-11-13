@@ -1,0 +1,33 @@
+The mktime() function takes struct_time (or a tuple containing 9 elements corresponding to struct_time) as an argument and
+returns the seconds passed since epoch in local time. Basically, it's the inverse function of localtime().
+
+import time
+
+t = (2018, 12, 28, 8, 44, 4, 4, 362, 0)
+
+local_time = time.mktime(t)
+print("Local time:", local_time)
+
+
+
+The example below shows how mktime() and localtime() are related.
+
+import time
+
+seconds = 1545925769
+
+# returns struct_time
+t = time.localtime(seconds)
+print("t1: ", t)
+
+# returns seconds from struct_time
+s = time.mktime(t)
+print("\s:", seconds)
+
+
+
+When you run the program, the output will be something like:
+
+t1:  time.struct_time(tm_year=2018, tm_mon=12, tm_mday=27, tm_hour=15, tm_min=49, tm_sec=29, tm_wday=3, tm_yday=361, tm_isdst=0)
+
+s: 1545925769.0

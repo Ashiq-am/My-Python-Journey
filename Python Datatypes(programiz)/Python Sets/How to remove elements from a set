@@ -1,0 +1,21 @@
+A particular item can be removed from set using methods, discard() and remove().
+
+The only difference between the two is that, while using discard() if the item does not exist in the set,
+it remains unchanged. But remove() will raise an error in such condition.
+
+The following example will illustrate this.
+
+
+
+
+
+
+
+
+
+
+Similarly, we can remove and return an item using the pop() method.
+
+Set being unordered, there is no way of determining which item will be popped. It is completely arbitrary.
+
+We can also remove all items from a set using clear().

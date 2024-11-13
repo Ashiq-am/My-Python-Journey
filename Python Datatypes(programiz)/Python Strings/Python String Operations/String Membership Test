@@ -1,0 +1,6 @@
+We can test if a sub string exists within a string or not, using the keyword in.
+
+>>> 'a' in 'program'
+True
+>>> 'at' not in 'battle'
+False

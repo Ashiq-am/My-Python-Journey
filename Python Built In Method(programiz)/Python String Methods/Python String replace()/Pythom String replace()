@@ -1,0 +1,37 @@
+The replace() method returns a copy of the string where all occurrences of a substring is replaced with another substring.
+
+The syntax of replace() is:
+
+str.replace(old, new [, count])
+
+
+
+
+
+
+
+
+
+
+replace() parameters
+The replace() method can take maximum of 3 parameters:
+
+old - old substring you want to replace
+new - new substring which would replace the old substring
+count (optional) - the number of times you want to replace the old substring with the new substring
+
+If count is not specified, replace() method replaces all occurrences of the old substring with the new substring.
+
+
+
+
+
+
+
+
+
+
+Return Value from replace()
+
+The replace() method returns a copy of the string where old substring is replaced with the new substring.
+The original string is unchanged.

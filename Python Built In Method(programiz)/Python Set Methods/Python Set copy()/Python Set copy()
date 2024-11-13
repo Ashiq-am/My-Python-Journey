@@ -1,0 +1,43 @@
+The copy() method returns a shallow copy of the set.
+
+A set can be copied using = operator in Python. For example:
+
+
+
+numbers = {1, 2, 3, 4}
+new_numbers = numbers
+
+
+
+
+
+
+The problem with copying the set in this way is that if you modify the numbers set, the new_numbers set is also modified.
+
+
+
+
+
+
+
+
+The syntax of copy() is:
+
+set.copy()
+
+
+
+
+
+
+
+
+
+copy() Parameters
+It doesn't take any parameters.
+
+
+
+
+Return Value from copy()
+The copy() method modifies the given set. It doesn't return any value.

@@ -1,0 +1,43 @@
+The strip() method returns a copy of the string with both leading and trailing characters removed
+(based on the string argument passed).
+
+The strip() removes characters from both left and right based on the argument (a string specifying the set of
+characters to be removed).
+
+The syntax of strip() is:
+
+string.strip([chars])
+
+
+
+
+
+
+
+
+
+
+strip() Parameters
+chars (optional) - a string specifying the set of characters to be removed.
+
+If the chars argument is not provided, all leading and trailing whitespaces are removed from the string.
+
+
+
+
+
+
+
+
+
+
+
+Return Value from strip()
+
+The strip() returns a copy of the string with both leading and trailing characters stripped.
+
+When the combination of characters in the chars argument mismatches the character of the string in the left,
+it stops removing the leading characters.
+
+Similarly, when the combination of characters in the chars argument mismatches the character of the string in the right,
+it stops removing the trailing characters.

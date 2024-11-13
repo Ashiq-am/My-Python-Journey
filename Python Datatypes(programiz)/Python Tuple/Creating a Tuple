@@ -1,0 +1,17 @@
+A tuple is created by placing all the items (elements) inside parentheses (), separated by commas.
+The parentheses are optional, however, it is a good practice to use them.
+
+A tuple can have any number of items and they may be of different types (integer, float, list, string, etc.).
+
+
+
+A tuple can also be created without using parentheses. This is known as tuple packing.
+
+
+
+
+
+
+Creating a tuple with one element is a bit tricky.
+
+Having one element within parentheses is not enough. We will need a trailing comma to indicate that it is, in fact, a tuple.

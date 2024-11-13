@@ -1,0 +1,23 @@
+import time
+
+print("Printed immediately.")
+time.sleep(2.4)
+print("Printed after 2.4 seconds.")
+
+
+
+Here's how this program works:
+
+"Printed immediately" is printed
+Suspends (Delays) execution for 2.4 seconds.
+"Printed after 2.4 seconds" is printed.
+
+
+As you can see from the above example, sleep() takes a floating-point number as an argument.
+
+
+
+
+Before Python 3.5, the actual suspension time may be less than the argument specified to the time() function.
+
+Since Python 3.5, the suspension time will be at least the seconds specified.

@@ -1,0 +1,30 @@
+The isdecimal() method returns True if all characters in a string are decimal characters. If not, it returns False.
+
+The syntax of isdecimal() is
+
+string.isdecimal()
+
+
+
+
+
+
+
+
+isdecimal() Parameters
+The isdecimal() doesn't take any parameters.
+
+
+
+
+
+
+
+
+
+Return Value from isdecimal()
+The isdecimal() returns:
+
+True if all characters in the string are decimal characters.
+
+False if at least one character is not decimal character.

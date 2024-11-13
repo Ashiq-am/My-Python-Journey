@@ -1,0 +1,32 @@
+The istitle() returns True if the string is a titlecased string. If not, it returns False.
+
+The syntax of istitle() method is:
+
+string.istitle()
+
+
+
+
+
+
+
+
+
+istitle() Parameters
+The istitle() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+
+
+Return Value from istitle()
+The istitle() method returns:
+
+True if the string is a titlecased string
+
+False if the string is not a titlecased string or an empty string

@@ -1,0 +1,30 @@
+The string swapcase() method converts all uppercase characters to lowercase and all lowercase characters to uppercase
+characters of the given string, and returns it.
+
+The format of swapcase() method is:
+
+string.swapcase()
+
+
+
+
+
+
+
+String swapcase() Parameters()
+The swapcase() method doesn't take any parameters.
+
+
+
+
+
+
+
+
+
+
+
+Return value from String swapcase()
+
+The swapcase() method returns the string where all uppercase characters are converted to lowercase,
+and lowercase characters are converted to uppercase.
